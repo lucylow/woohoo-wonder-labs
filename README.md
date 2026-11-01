@@ -1,3332 +1,2896 @@
-# 🚀 WooHoo Wonder Labs
-### An AI-Powered Innovation, Experimentation & Creative Intelligence Platform
+# W.O.O.H.O.O. Discovery Engine
+## Where Only Our Heroes Orbit Outward
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Platform-AI%20Innovation-7857FF?style=for-the-badge" alt="AI Innovation"/>
-  <img src="https://img.shields.io/badge/Architecture-Modular-06B6D4?style=for-the-badge" alt="Modular Architecture"/>
-  <img src="https://img.shields.io/badge/Focus-Experimentation-10B981?style=for-the-badge" alt="Experimentation"/>
-  <img src="https://img.shields.io/badge/Documentation-Technical-111827?style=for-the-badge" alt="Technical Documentation"/>
+  <strong>EXPLORE BEYOND THE KNOWN.</strong>
+  <br/>
+  An AI-powered scientific discovery, computational physics, and machine learning platform.
 </p>
 
 <p align="center">
-  **Turning curiosity into experiments, experiments into prototypes, and prototypes into possibilities.**
+  <img src="https://img.shields.io/badge/Artificial_Intelligence-Scientific_AI-8067FF?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Machine_Learning-Deep_Learning-25D9F2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Physics-Computational_Science-35D399?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/3D-Scientific_Visualization-F4B860?style=for-the-badge" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React-TypeScript-blue?logo=react" />
+  <img src="https://img.shields.io/badge/Python-FastAPI-blue?logo=python" />
+  <img src="https://img.shields.io/badge/PyTorch-Deep_Learning-EE4C2C?logo=pytorch" />
+  <img src="https://img.shields.io/badge/Three.js-3D_Engine-black?logo=threedotjs" />
+  <img src="https://img.shields.io/badge/PostgreSQL-Database-4169E1?logo=postgresql" />
+  <img src="https://img.shields.io/badge/Supabase-Backend-3ECF8E?logo=supabase" />
 </p>
 
 ---
 
 # TABLE OF CONTENTS
 
-1. [Executive Overview](#1-executive-overview)
-2. [Vision, Mission & Product Philosophy](#2-vision-mission--product-philosophy)
+1. [Project Overview](#1-project-overview)
+2. [Scientific Vision and Research Objectives](#2-scientific-vision-and-research-objectives)
 3. [Platform Architecture](#3-platform-architecture)
-4. [AI Intelligence Infrastructure](#4-ai-intelligence-infrastructure)
-5. [Multi-Agent Orchestration](#5-multi-agent-orchestration)
-6. [Creative Experimentation Engine](#6-creative-experimentation-engine)
-7. [Project and Workspace Management](#7-project-and-workspace-management)
-8. [Prompt Engineering & Intelligence Management](#8-prompt-engineering--intelligence-management)
-9. [Data Architecture & Knowledge Management](#9-data-architecture--knowledge-management)
-10. [Multimodal AI Processing](#10-multimodal-ai-processing)
-11. [Workflow Automation Engine](#11-workflow-automation-engine)
-12. [Backend Architecture & APIs](#12-backend-architecture--apis)
-13. [Frontend Architecture & Experience](#13-frontend-architecture--experience)
-14. [Experiment Evaluation & Benchmarking](#14-experiment-evaluation--benchmarking)
-15. [Security, Privacy & Governance](#15-security-privacy--governance)
-16. [Performance, Scalability & Reliability](#16-performance-scalability--reliability)
-17. [Testing & Quality Engineering](#17-testing--quality-engineering)
-18. [Deployment & DevOps](#18-deployment--devops)
-19. [Business Model & Product Expansion](#19-business-model--product-expansion)
-20. [Development Roadmap & Future Research](#20-development-roadmap--future-research)
+4. [Artificial Intelligence Core](#4-artificial-intelligence-core)
+5. [Machine Learning and Neural Architectures](#5-machine-learning-and-neural-architectures)
+6. [Scientific Discovery and Automated Research](#6-scientific-discovery-and-automated-research)
+7. [Astrophysics and Exoplanet Intelligence](#7-astrophysics-and-exoplanet-intelligence)
+8. [Cosmology and Dark Matter Intelligence](#8-cosmology-and-dark-matter-intelligence)
+9. [Quantum Computing and Quantum Machine Learning](#9-quantum-computing-and-quantum-machine-learning)
+10. [Particle Physics Intelligence](#10-particle-physics-intelligence)
+11. [Materials Science and Atomic Simulation](#11-materials-science-and-atomic-simulation)
+12. [Plasma Physics and Fusion Research](#12-plasma-physics-and-fusion-research)
+13. [Computational Physics and Numerical Simulation](#13-computational-physics-and-numerical-simulation)
+14. [Advanced 3D Visualization Engine](#14-advanced-3d-visualization-engine)
+15. [Virtual Observatory and Space Mission Intelligence](#15-virtual-observatory-and-space-mission-intelligence)
+16. [Scientific Data Intelligence Infrastructure](#16-scientific-data-intelligence-infrastructure)
+17. [Multi-Agent Scientific Research](#17-multi-agent-scientific-research)
+18. [Database Architecture](#18-database-architecture)
+19. [API Architecture](#19-api-architecture)
+20. [Security and Scientific Integrity](#20-security-and-scientific-integrity)
+21. [Installation and Configuration](#21-installation-and-configuration)
+22. [Testing and Evaluation](#22-testing-and-evaluation)
+23. [Deployment and Infrastructure](#23-deployment-and-infrastructure)
+24. [Project Structure](#24-project-structure)
+25. [Future Research Directions](#25-future-research-directions)
 
 ---
 
-# 1. EXECUTIVE OVERVIEW
+# 1. PROJECT OVERVIEW
 
 ## 1.1 Introduction
 
-WooHoo Wonder Labs is envisioned as an AI-powered innovation environment designed to make experimentation, creative exploration, and intelligent application development more accessible.
+**W.O.O.H.O.O. — Where Only Our Heroes Orbit Outward** is an integrated artificial intelligence and scientific computing platform designed to bring machine learning, computational physics, astronomical research, quantum computing, scientific simulations and interactive 3D visualization into one extensible software environment.
 
-The platform brings together artificial intelligence, computational experimentation, intelligent automation, structured project management, and multimodal interaction.
+The platform combines modern AI architectures with established mathematical and physical computation methods.
 
-Rather than treating AI as a single conversational interface, WooHoo Wonder Labs is designed around the concept of an interconnected innovation workspace.
+Rather than functioning as a general-purpose conversational AI application, W.O.O.H.O.O. provides specialized scientific tools capable of interacting with datasets, numerical solvers, mathematical models, trained machine learning systems and computational experiments.
 
-The platform provides a structured environment in which users can:
+The platform is designed around a unified research workflow:
 
-- Explore new ideas.
-- Transform concepts into structured experiments.
-- Develop AI-assisted prototypes.
-- Organize research and reference materials.
-- Build reusable prompt libraries.
-- Orchestrate AI-powered workflows.
-- Compare alternative solutions.
-- Evaluate experimental outputs.
-- Preserve experiment histories.
-- Convert successful experiments into reusable projects.
+1. Discover scientific datasets.
+2. Inspect and validate observations.
+3. Formulate research questions.
+4. Generate testable hypotheses.
+5. Configure mathematical and physical models.
+6. Execute computational experiments.
+7. Train machine learning models.
+8. Evaluate predictions and uncertainty.
+9. Compare results against reference calculations.
+10. Visualize scientific outputs in interactive 3D.
+11. Generate reproducible research reports.
 
-The fundamental idea is to establish a continuous innovation lifecycle.
+W.O.O.H.O.O. connects multiple scientific disciplines through a shared AI intelligence layer and standardized computational infrastructure.
 
-## 1.2 Core Platform Concept
+## 1.2 Core Product Philosophy
 
-The conceptual architecture consists of six major capabilities.
+The central philosophy is:
 
-| Capability | Responsibility |
+**Artificial intelligence should not simply describe scientific phenomena. It should help researchers investigate, model, simulate, analyze and test them.**
+
+This principle drives the platform's architecture.
+
+Every major scientific module connects to shared services for:
+
+- Dataset management.
+- Machine learning.
+- Mathematical computation.
+- Physics simulation.
+- Scientific reasoning.
+- Experiment orchestration.
+- Uncertainty analysis.
+- Data provenance.
+- Interactive visualization.
+
+This enables users to conduct research across several disciplines without requiring disconnected software environments.
+
+## 1.3 Platform Capabilities
+
+| Research category | Major capabilities |
 |---|---|
-| Wonder Studio | Primary user-facing experimentation environment |
-| AI Intelligence Layer | Model integration and intelligent processing |
-| Experimentation Engine | Experiment configuration and execution |
-| Agent Orchestration | Coordination of specialized AI agents |
-| Knowledge Workspace | Project context, documents, and history |
-| Innovation Analytics | Experiment evaluation and performance tracking |
+| Artificial Intelligence | Multimodal AI, scientific reasoning, research agents |
+| Machine Learning | CNNs, Transformers, GNNs, PINNs, neural operators |
+| Astrophysics | Exoplanet detection, gravitational lensing, black hole research |
+| Cosmology | Cosmic web analysis, dark matter, expansion history |
+| Quantum Computing | Circuit simulation, QML, quantum information |
+| Particle Physics | Event reconstruction, detector intelligence, particle classification |
+| Materials Science | Crystal structures, DFT, neural interatomic potentials |
+| Plasma Physics | MHD, turbulence analysis, fusion research |
+| Computational Physics | ODEs, PDEs, numerical solvers, inverse problems |
+| Space Science | Virtual observatory, orbital mechanics, mission simulation |
+| Visualization | Interactive 3D scientific environments |
 
-## 1.3 The Innovation Lifecycle
+## 1.4 Target Users
 
-Every experiment follows a structured lifecycle.
+W.O.O.H.O.O. is designed for:
 
-```mermaid
-flowchart TD
-    A["💡 Initial Idea"] --> B["Idea Exploration"]
-    B --> C["Experiment Design"]
-    C --> D["AI-Assisted Planning"]
-    D --> E["Prototype Development"]
-    E --> F["Experiment Execution"]
-    F --> G["Output Evaluation"]
-    G --> H{"Successful?"}
-    H -->|Yes| I["Save Successful Experiment"]
-    H -->|No| J["Refine Configuration"]
-    J --> D
-    I --> K["Reusable Project"]
-    K --> L["Knowledge Library"]
-    L --> M["Future Innovation"]
-```
+- AI and machine learning engineers.
+- Computational physicists.
+- Astrophysics researchers.
+- Quantum computing developers.
+- Scientific software engineers.
+- Data scientists.
+- Astronomy enthusiasts.
+- Computational materials researchers.
+- Physics educators.
+- Students and independent scientific researchers.
 
-The architecture emphasizes iterative improvement rather than one-time AI generation.
+## 1.5 Product Identity
 
-A successful experiment should be reproducible, documented, evaluated, and available for future use.
+**Name:** W.O.O.H.O.O. Discovery Engine
 
-## 1.4 Design Principles
+**Full Name:** Where Only Our Heroes Orbit Outward
 
-**Modularity**
+**Tagline:** Explore Beyond the Known.
 
-The platform should allow independent development of AI providers, experimentation tools, workflows, storage services, and user interface components.
+**Product Category:** Scientific Artificial Intelligence and Computational Discovery Software.
 
-**Extensibility**
-
-New model providers, experiment categories, plugins, and processing capabilities should be added without rewriting the entire application.
-
-**Reproducibility**
-
-Experiments should retain their input parameters, prompt versions, model configurations, timestamps, and output references.
-
-**Observability**
-
-Users and developers should be able to understand what occurred during an experiment and identify unsuccessful execution stages.
-
-**Human Control**
-
-AI-generated outputs should remain reviewable and editable. AI suggestions should not automatically become approved project decisions.
-
-**Responsible AI**
-
-The platform should support privacy controls, transparent AI-generated content labeling, data minimization, and appropriate human review.
+**Core Concept:** A connected research environment where artificial intelligence, machine learning and computational physics work together to investigate the universe and physical systems.
 
 ---
 
-# 2. VISION, MISSION & PRODUCT PHILOSOPHY
+# 2. SCIENTIFIC VISION AND RESEARCH OBJECTIVES
 
-## 2.1 Vision
+## 2.1 Unified Scientific Research Environment
 
-Create an accessible innovation environment where curiosity can become structured experimentation.
+The platform is designed to connect scientific disciplines that traditionally use separate datasets, computational environments and analytical tools.
 
-WooHoo Wonder Labs approaches AI as an enabling technology for exploration, discovery, and creative problem-solving.
+Its architecture supports cross-disciplinary experimentation.
 
-The long-term vision is to connect:
+For example:
 
-- Artificial intelligence.
-- Creative technologies.
-- Scientific exploration.
-- Educational experimentation.
-- Computational intelligence.
-- Software prototyping.
-- Knowledge management.
-- Intelligent automation.
+- Astrophysical observations can become machine learning datasets.
+- Numerical physics simulations can generate training data.
+- Neural networks can approximate computationally expensive physical models.
+- Quantum algorithms can be investigated through simulation.
+- Materials structures can be represented using graph neural networks.
+- Cosmological simulations can be analyzed using volumetric machine learning.
+- Particle detector measurements can be reconstructed and visualized in 3D.
 
-## 2.2 Mission
+The objective is to create shared scientific infrastructure rather than isolated demonstrations.
 
-The mission is to reduce the complexity between having an idea and exploring whether that idea can become something useful.
-
-Traditional development environments frequently require users to move between separate tools for research, brainstorming, prototyping, documentation, and testing.
-
-WooHoo Wonder Labs proposes integrating those activities into one cohesive workspace.
-
-## 2.3 Product Philosophy
-
-The platform follows five principles.
-
-### Principle 1: Explore before committing
-
-Users should be able to investigate an idea without committing to an entire development project.
-
-### Principle 2: Make experimentation repeatable
-
-Experimental configurations should be preserved and versioned.
-
-### Principle 3: Support different forms of intelligence
-
-The architecture should accommodate language models, vision systems, embeddings, traditional algorithms, and deterministic processing.
-
-### Principle 4: Preserve the human creative process
-
-The system should expand creative possibilities rather than eliminate human direction.
-
-### Principle 5: Turn outputs into reusable knowledge
-
-Successful discoveries should become searchable and reusable resources.
-
-## 2.4 User Personas
-
-| Persona | Primary Needs | Platform Value |
-|---|---|---|
-| Independent developer | Rapid prototyping | AI-assisted development |
-| Creative professional | Explore concepts | Multimodal creative workflows |
-| Researcher | Organize experiments | Reproducibility and evaluation |
-| Educator | Demonstrations and learning | Structured experimentation |
-| Product designer | Validate ideas | Prototype exploration |
-| Innovation team | Organize collaboration | Shared knowledge and workflows |
-
-## 2.5 Product Experience
-
-The intended user journey:
+## 2.2 Research Workflow
 
 ```mermaid
-flowchart LR
-    A["Discover"] --> B["Imagine"]
-    B --> C["Design"]
-    C --> D["Experiment"]
-    D --> E["Evaluate"]
-    E --> F["Improve"]
-    F --> G["Publish or Save"]
-    G --> H["Reuse"]
+flowchart TD
+    A[Scientific Research Question] --> B[Scientific AI Core]
+    B --> C[Research Context and Literature]
+    C --> D[Scientific Data Intelligence]
+    D --> E[Dataset Validation]
+    E --> F[Hypothesis Generation]
+    F --> G[Experiment Design]
+    G --> H[Physical Modeling]
+    H --> I[Machine Learning]
+    I --> J[Computational Execution]
+    J --> K[Scientific Evaluation]
+    K --> L[Uncertainty Analysis]
+    L --> M[3D Visualization]
+    M --> N[Research Report]
+    N --> O[Human Review]
 ```
 
-This lifecycle should be reflected throughout the product's navigation, interface, data model, and backend services.
+## 2.3 Cross-Disciplinary Research
+
+The platform supports the development of interconnected scientific applications.
+
+| Scientific discipline | Data | AI application | Computational application |
+|---|---|---|---|
+| Astrophysics | Telescope observations | Exoplanet classification | Orbital dynamics |
+| Cosmology | Galaxy catalogs | Cosmic structure classification | N-body simulations |
+| Quantum physics | Quantum states | Quantum ML | Circuit simulation |
+| Particle physics | Collision events | Track reconstruction | Detector modeling |
+| Materials science | Crystal structures | Property prediction | Molecular dynamics |
+| Plasma physics | Plasma measurements | Turbulence forecasting | MHD simulations |
+| Fluid mechanics | Flow fields | Neural operators | Navier–Stokes solvers |
+
+## 2.4 Scientific Reproducibility
+
+All major computational workflows should record:
+
+- Dataset provenance.
+- Model version.
+- Software version.
+- Input parameters.
+- Preprocessing configuration.
+- Mathematical assumptions.
+- Numerical solver.
+- Computational settings.
+- Evaluation methodology.
+- Output artifacts.
+- Uncertainty information.
+
+This makes experimental results traceable and repeatable.
 
 ---
 
 # 3. PLATFORM ARCHITECTURE
 
-## 3.1 Architecture Overview
+## 3.1 High-Level System Architecture
 
-WooHoo Wonder Labs is designed around a modular, service-oriented architecture.
-
-The architecture separates the presentation layer from application logic, AI execution, persistence, and external integrations.
-
-This separation provides a foundation for independent scaling and easier maintenance.
+W.O.O.H.O.O. uses a modular architecture consisting of a frontend research environment, backend scientific computing services, machine learning infrastructure, persistent storage and visualization engines.
 
 ```mermaid
 flowchart TB
-
-    subgraph CLIENT["PRESENTATION LAYER"]
-        WEB["Web Application"]
-        MOBILE["Mobile Interface"]
-        ADMIN["Administration"]
+    subgraph FRONTEND["APPLICATION LAYER"]
+        UI[React and TypeScript]
+        DASH[Scientific Dashboard]
+        LAB[Research Laboratories]
+        VIZ[Three.js Visualization]
     end
 
-    subgraph APPLICATION["APPLICATION LAYER"]
-        AUTH["Authentication"]
-        PROJECT["Project Management"]
-        EXP["Experiment Management"]
-        PROMPT["Prompt Management"]
-        WORK["Workflow Management"]
+    subgraph API["API AND ORCHESTRATION"]
+        FAST[FastAPI Gateway]
+        AUTH[Authentication]
+        ROUTER[Scientific Task Router]
+        JOBS[Background Job Manager]
     end
 
-    subgraph INTELLIGENCE["AI INTELLIGENCE LAYER"]
-        ROUTER["Model Router"]
-        AGENT["Agent Orchestrator"]
-        VISION["Vision Processing"]
-        TEXT["Language Processing"]
-        EVAL["Evaluation Engine"]
+    subgraph AI["ARTIFICIAL INTELLIGENCE"]
+        LLM[Scientific AI Models]
+        ML[Machine Learning Engine]
+        AGENTS[Multi-Agent Workflows]
+        RAG[Scientific Retrieval]
+        QML[Quantum ML]
     end
 
-    subgraph DATA["DATA LAYER"]
-        DB[("Application Database")]
-        CACHE[("Cache")]
-        VECTOR[("Vector Index")]
-        STORAGE[("Object Storage")]
+    subgraph COMPUTE["SCIENTIFIC COMPUTATION"]
+        PHYS[Physics Solvers]
+        QUANTUM[Quantum Simulators]
+        COSMO[Cosmology Engine]
+        MATERIAL[Materials Engine]
+        PLASMA[Plasma Engine]
     end
 
-    subgraph EXTERNAL["EXTERNAL SERVICES"]
-        LLM["LLM Providers"]
-        EXT["External APIs"]
-        OBS["Monitoring"]
+    subgraph DATA["DATA INFRASTRUCTURE"]
+        DB[(PostgreSQL)]
+        VECTOR[(Vector Search)]
+        STORAGE[(Object Storage)]
+        QUEUE[(Job Queue)]
     end
 
-    WEB --> AUTH
-    MOBILE --> AUTH
-    ADMIN --> AUTH
+    UI --> FAST
+    DASH --> FAST
+    LAB --> FAST
+    VIZ --> FAST
 
-    AUTH --> PROJECT
-    PROJECT --> EXP
-    EXP --> PROMPT
-    EXP --> WORK
+    FAST --> AUTH
+    FAST --> ROUTER
+    ROUTER --> AI
+    ROUTER --> COMPUTE
+    ROUTER --> QUEUE
 
-    WORK --> AGENT
-    AGENT --> ROUTER
-    ROUTER --> TEXT
-    ROUTER --> VISION
-    TEXT --> LLM
-    VISION --> LLM
-    AGENT --> EVAL
-
-    PROJECT --> DB
-    EXP --> DB
-    PROMPT --> DB
-    WORK --> CACHE
-    EXP --> STORAGE
-    AGENT --> VECTOR
-    APPLICATION --> OBS
-    INTELLIGENCE --> OBS
+    AI --> DB
+    AI --> VECTOR
+    COMPUTE --> STORAGE
+    JOBS --> QUEUE
+    FAST --> DB
+    FAST --> STORAGE
 ```
 
-## 3.2 Architectural Layers
+## 3.2 Frontend Architecture
 
-### Presentation Layer
+The frontend provides the primary research interface.
 
-Responsible for all user-facing interactions.
+Core technologies:
+
+- React.
+- TypeScript.
+- Vite.
+- Tailwind CSS.
+- Three.js.
+- React Three Fiber.
+- Drei.
+- Interactive charting libraries.
+- KaTeX or MathJax.
+
+The frontend is responsible for:
+
+- Scientific dashboards.
+- Research navigation.
+- Dataset exploration.
+- Model configuration.
+- Experiment management.
+- Interactive visualizations.
+- Results interpretation.
+- Export workflows.
+
+Heavy numerical computation and model training are delegated to backend services.
+
+## 3.3 Backend Architecture
+
+Python-based services provide the scientific computation layer.
+
+Primary technologies:
+
+- FastAPI.
+- NumPy.
+- SciPy.
+- SymPy.
+- Pandas.
+- PyTorch.
+- JAX.
+- scikit-learn.
+- PyTorch Geometric.
 
 Responsibilities:
 
-- Authentication screens.
-- Dashboard navigation.
-- Experiment configuration.
-- Prompt editing.
-- Project management.
-- Result visualization.
-- Workflow monitoring.
+- Scientific calculations.
+- ML inference.
+- Model training.
+- Dataset preprocessing.
+- Simulation orchestration.
+- API integrations.
+- Experiment execution.
+- Report generation.
+
+## 3.4 Service-Oriented Design
+
+```mermaid
+flowchart LR
+    CLIENT[Frontend Client] --> API[API Gateway]
+
+    API --> AUTH[Authentication Service]
+    API --> DATA[Data Service]
+    API --> AI[AI Service]
+    API --> PHYS[Physics Service]
+    API --> QUANTUM[Quantum Service]
+    API --> COSMO[Cosmology Service]
+    API --> REPORT[Reporting Service]
+
+    DATA --> DB[(Database)]
+    DATA --> OBJECTS[(Object Storage)]
+
+    AI --> MODELS[Model Registry]
+    AI --> VECTOR[Vector Database]
+
+    PHYS --> WORKERS[Compute Workers]
+    QUANTUM --> WORKERS
+    COSMO --> WORKERS
+
+    WORKERS --> QUEUE[(Job Queue)]
+```
+
+## 3.5 Asynchronous Computation
+
+Long-running tasks are executed through background workers.
+
+Examples:
+
+- Model training.
+- Large dataset preprocessing.
+- DFT calculations.
+- Molecular dynamics.
+- Cosmological simulations.
+- Quantum circuit simulation.
+- Plasma simulation.
+- Large-scale 3D data preparation.
+
+Jobs have unique identifiers and execution states.
+
+```mermaid
+stateDiagram-v2
+    [*] --> Draft
+    Draft --> Validating
+    Validating --> Queued
+    Validating --> Failed
+    Queued --> Running
+    Running --> Completed
+    Running --> Failed
+    Running --> Cancelled
+    Failed --> Queued
+    Completed --> Archived
+    Cancelled --> Archived
+```
+
+---
+
+# 4. ARTIFICIAL INTELLIGENCE CORE
+
+## 4.1 Scientific AI Intelligence Center
+
+The Scientific AI Core coordinates the platform's AI capabilities.
+
+Its main responsibilities are:
+
+- Scientific task classification.
+- Intelligent model routing.
+- Context retrieval.
+- Tool invocation.
+- Dataset discovery.
+- Model inference.
+- Scientific calculations.
+- Result evaluation.
+- Uncertainty presentation.
+- Research workflow orchestration.
+
+Rather than sending every request to the same language model, the system routes tasks to specialized models and tools.
+
+## 4.2 Intelligent Task Routing
+
+Supported task types:
+
+| Task | Computational service |
+|---|---|
+| Scientific question | Research language model |
+| Mathematical equation | SymPy or numerical computation |
+| Image analysis | Computer vision model |
+| Time-series analysis | Temporal ML model |
+| Dataset analysis | Data intelligence service |
+| Quantum circuit | Quantum simulator |
+| Physical simulation | Physics computation service |
+| Cosmological inference | Cosmology engine |
+| Model evaluation | ML evaluation service |
+| Research report | AI reporting workflow |
+
+Example routing architecture:
+
+```mermaid
+flowchart TD
+    A[User Request] --> B[Scientific Task Classifier]
+    B --> C{Task Type}
+    C -->|Mathematics| D[Symbolic Computation]
+    C -->|Astronomy| E[Astronomy Intelligence]
+    C -->|Machine Learning| F[ML Engine]
+    C -->|Quantum| G[Quantum Computing]
+    C -->|Physics| H[Physics Solver]
+    C -->|Research| I[RAG and Literature Search]
+    D --> J[Result Validation]
+    E --> J
+    F --> J
+    G --> J
+    H --> J
+    I --> J
+    J --> K[Structured AI Response]
+```
+
+## 4.3 Scientific Tool Use
+
+The AI can invoke approved computational operations.
+
+Examples:
+
+```python
+analyze_dataset()
+inspect_dataset_schema()
+calculate_physical_quantity()
+solve_differential_equation()
+run_orbit_simulation()
+analyze_light_curve()
+classify_scientific_image()
+evaluate_model()
+inspect_uncertainty()
+compare_experiments()
+generate_scientific_report()
+```
+
+Each tool has typed inputs, validation rules, execution permissions and structured outputs.
+
+The AI must use actual computation outputs when reporting a calculated result.
+
+## 4.4 Multimodal Scientific Intelligence
+
+The system supports multiple scientific data modalities:
+
+- Images.
+- Numerical tables.
+- Time-series.
+- Waveforms.
+- Graphs.
+- Atomic structures.
+- Physical equations.
+- Simulation fields.
+- Research documents.
+
+Modality-specific encoders produce representations that can be combined through supported fusion architectures.
+
+## 4.5 Retrieval-Augmented Generation
+
+The research assistant uses a retrieval pipeline.
+
+```mermaid
+flowchart TD
+    A[User Research Question] --> B[Query Processing]
+    B --> C[Document Retrieval]
+    B --> D[Metadata Search]
+    B --> E[Vector Search]
+    C --> F[Evidence Ranking]
+    D --> F
+    E --> F
+    F --> G[Context Assembly]
+    G --> H[Scientific AI]
+    H --> I[Source-Referenced Response]
+```
+
+The retrieval environment indexes:
+
+- Scientific literature.
+- Research documentation.
+- Dataset metadata.
+- Model documentation.
+- Mathematical references.
 - Experiment history.
+- User research notes.
 
-### Application Layer
+Source attribution is retained.
 
-Contains business logic and application-specific operations.
+## 4.6 AI Reliability
 
-Responsibilities:
+Implement:
 
-- Project creation.
-- Experiment lifecycle management.
-- Workspace permissions.
-- Configuration validation.
-- Prompt versioning.
-- Workflow execution requests.
-- Artifact management.
+- Prediction calibration.
+- Uncertainty estimation.
+- Distribution shift detection.
+- Out-of-distribution detection.
+- Model comparison.
+- Error analysis.
+- Input validation.
+- Tool execution verification.
 
-### Intelligence Layer
+The AI must distinguish established scientific knowledge, published findings, numerical simulations, model predictions and unvalidated hypotheses.
 
-Responsible for AI-related execution.
+---
 
-Responsibilities:
+# 5. MACHINE LEARNING AND NEURAL ARCHITECTURES
 
-- Model selection.
-- Provider integration.
-- Prompt construction.
-- Agent execution.
-- Multimodal processing.
-- Result validation.
-- Evaluation.
+## 5.1 Neural Science Lab
 
-### Data Layer
+The platform includes a dedicated machine learning research environment.
 
-Provides durable persistence and retrieval.
+Supported model families include:
 
-Responsibilities:
+| Architecture | Scientific applications |
+|---|---|
+| CNN | Scientific image recognition |
+| Vision Transformer | Astronomical imagery |
+| Temporal Transformer | Scientific time-series |
+| LSTM / GRU | Sequential prediction |
+| GNN | Particle and atomic structures |
+| Autoencoder | Anomaly detection |
+| VAE | Latent representation learning |
+| PINN | Physics-constrained learning |
+| Neural Operators | PDE approximation |
+| Bayesian Neural Networks | Predictive uncertainty |
+| Diffusion Models | Scientific data generation |
+| Equivariant Networks | Geometric physical systems |
 
-- User accounts.
-- Workspace metadata.
-- Project records.
-- Experiment history.
-- AI execution records.
-- Uploaded assets.
-- Search indexes.
-- Evaluation results.
+## 5.2 Training Pipeline
 
-## 3.3 Separation of Concerns
+```mermaid
+flowchart TD
+    A[Dataset Selection] --> B[Data Validation]
+    B --> C[Preprocessing]
+    C --> D[Feature Engineering]
+    D --> E[Train Validation Test Split]
+    E --> F[Model Configuration]
+    F --> G[Training Service]
+    G --> H[Checkpoint Storage]
+    H --> I[Evaluation]
+    I --> J[Calibration]
+    J --> K[Model Registry]
+    K --> L[Inference Deployment]
+```
 
-The platform should avoid embedding AI provider logic directly into frontend components.
+## 5.3 Training Configuration
 
-Instead, the frontend should communicate with application services, which delegate execution to the intelligence layer.
+Users can configure:
 
-This ensures that switching between AI providers does not require changing the user interface.
+- Architecture.
+- Number of layers.
+- Hidden dimensions.
+- Activation functions.
+- Batch size.
+- Learning rate.
+- Optimizer.
+- Weight decay.
+- Dropout.
+- Training duration.
+- Validation strategy.
+- Loss function.
+- Early stopping.
 
-## 3.4 Suggested Repository Organization
+Training metadata is recorded for reproducibility.
 
-The following is a proposed logical organization. Adapt it to the actual repository.
+## 5.4 Model Evaluation
+
+**Classification metrics**
+
+- Accuracy.
+- Precision.
+- Recall.
+- F1 score.
+- Specificity.
+- ROC-AUC.
+- PR-AUC.
+- Matthews correlation coefficient.
+
+**Regression metrics**
+
+- MAE.
+- MSE.
+- RMSE.
+- R².
+- Residual distribution.
+- Prediction interval coverage.
+
+**Scientific simulation metrics**
+
+- Relative L2 error.
+- Conservation residuals.
+- Field reconstruction error.
+- Parameter recovery error.
+- Numerical stability.
+- Generalization across physical conditions.
+
+## 5.5 Physics-Informed Machine Learning
+
+The PINN environment supports learning through data and physical constraints.
+
+A configurable loss function:
+
+\[
+\mathcal L =
+\lambda_d\mathcal L_{\text{data}}
++
+\lambda_p\mathcal L_{\text{physics}}
++
+\lambda_b\mathcal L_{\text{boundary}}
++
+\lambda_i\mathcal L_{\text{initial}}
+\]
+
+Supported research problems include:
+
+- Heat equations.
+- Wave equations.
+- Diffusion.
+- Poisson equations.
+- Selected fluid dynamics problems.
+- Reduced plasma models.
+
+## 5.6 Neural Operators
+
+Prepare architectures for:
+
+- Fourier Neural Operators.
+- DeepONets.
+- Graph Neural Operators.
+
+Applications include:
+
+- Physical field prediction.
+- Simulation approximation.
+- Parametric PDE modeling.
+- Computational surrogate models.
+
+Model performance is evaluated against numerical reference solutions.
+
+## 5.7 Model Registry and MLOps
+
+The model registry maintains:
+
+- Architecture.
+- Version.
+- Training dataset.
+- Configuration.
+- Checkpoints.
+- Evaluation metrics.
+- Calibration information.
+- Artifact references.
+- Deployment status.
+
+Model promotion requires appropriate evaluation and approval.
+
+---
+
+# 6. SCIENTIFIC DISCOVERY AND AUTOMATED RESEARCH
+
+## 6.1 Scientific Discovery Intelligence
+
+W.O.O.H.O.O. includes an automated scientific discovery environment.
+
+Core features:
+
+- Research question decomposition.
+- AI hypothesis generation.
+- Dataset discovery.
+- Mathematical relationship identification.
+- Symbolic regression.
+- Causal inference.
+- Experiment design.
+- Anomaly investigation.
+- Model comparison.
+- Evidence evaluation.
+
+## 6.2 Hypothesis Intelligence
+
+Every generated hypothesis includes:
+
+- Research question.
+- Scientific domain.
+- Proposed mechanism.
+- Required observations.
+- Relevant variables.
+- Potential confounding factors.
+- Suggested computational method.
+- Falsification criteria.
+- Alternative explanations.
+
+Hypothesis statuses:
+
+- Draft.
+- Proposed.
+- Under Investigation.
+- Testing.
+- Supported by Current Evidence.
+- Not Supported.
+- Contradicted.
+- Inconclusive.
+
+## 6.3 Equation Discovery
+
+The Equation Discovery Lab integrates symbolic regression and differential equation identification.
+
+Possible integrations:
+
+- PySR.
+- SINDy-compatible algorithms.
+- Symbolic mathematical tools.
+
+Workflow:
+
+```mermaid
+flowchart TD
+    A[Scientific Dataset] --> B[Variable Selection]
+    B --> C[Preprocessing]
+    C --> D[Symbolic Regression]
+    D --> E[Candidate Equations]
+    E --> F[Dimensional Validation]
+    F --> G[Held-Out Evaluation]
+    G --> H[Model Complexity Comparison]
+    H --> I[Research Report]
+```
+
+## 6.4 Causal Intelligence
+
+Supports:
+
+- Causal graph construction.
+- Conditional independence.
+- Confounder analysis.
+- Structural causal models.
+- Counterfactual evaluation.
+- Sensitivity analysis.
+
+Statistical correlations are not automatically interpreted as causal relationships.
+
+## 6.5 Automated Experiment Design
+
+Supported experimental methods:
+
+- Factorial design.
+- Latin hypercube sampling.
+- Grid search.
+- Bayesian experimental design.
+- Parameter sensitivity studies.
+- Sequential experiment selection.
+
+The platform generates reproducible configurations and requires approval for expensive jobs.
+
+## 6.6 Scientific Anomaly Detection
+
+Support:
+
+- Isolation Forest.
+- Local Outlier Factor.
+- Autoencoders.
+- Variational Autoencoders.
+- Temporal anomaly models.
+- Physics residual analysis.
+
+Detected anomalies are treated as research candidates requiring examination, not automatic discoveries.
+
+---
+
+# 7. ASTROPHYSICS AND EXOPLANET INTELLIGENCE
+
+## 7.1 Exoplanet Hunter AI
+
+Exoplanet Hunter is a flagship research application.
+
+Its purpose is to analyze stellar observations and identify possible planetary transit signatures.
+
+Features:
+
+- Light-curve ingestion.
+- Data preprocessing.
+- Signal analysis.
+- Box Least Squares integration.
+- Periodogram analysis.
+- Transit candidate detection.
+- CNN classification.
+- Temporal Transformer workflows.
+- Candidate ranking.
+- Uncertainty estimation.
+
+## 7.2 Transit Analysis
+
+The application analyzes:
+
+- Observation timestamps.
+- Normalized flux.
+- Transit depth.
+- Transit duration.
+- Orbital period.
+- Signal significance.
+- Data quality.
+
+It supports synchronized visualization between simulated planetary motion and associated stellar light curves.
+
+## 7.3 Candidate Profiles
+
+Each candidate profile includes:
+
+- Identifier.
+- Host star.
+- Orbital period estimate.
+- Planet radius estimate where supported.
+- Transit duration.
+- Model version.
+- Supporting observations.
+- Prediction uncertainty.
+
+Candidates are not automatically represented as confirmed planets.
+
+## 7.4 GravityLens AI
+
+A computer vision system for analyzing gravitational lensing candidates.
+
+Capabilities:
+
+- Einstein ring classification.
+- Gravitational arc detection.
+- Segmentation.
+- Image preprocessing.
+- Vision Transformers.
+- CNNs.
+- U-Net-style models.
+- Confidence visualization.
+
+## 7.5 Black Hole Intelligence
+
+Features:
+
+- Schwarzschild radius calculations.
+- Rotating black hole parameter exploration.
+- Accretion disk visualization.
+- Relativistic lensing representations.
+- Ray-tracing integration interfaces.
+- Scientific parameter comparison.
+
+## 7.6 Gravitational Wave Intelligence
+
+Supports:
+
+- Waveform ingestion.
+- Time-domain analysis.
+- Frequency-domain analysis.
+- Spectrograms.
+- Signal classification.
+- Denoising.
+- Event parameter estimation interfaces.
+- Anomaly detection.
+
+## 7.7 Solar Intelligence
+
+Supports:
+
+- Solar image analysis.
+- Active region classification.
+- Solar observation processing.
+- Time-series forecasting.
+- Magnetic field data exploration.
+- Space weather dataset integration.
+
+## 7.8 Virtual Observatory
+
+The Virtual Observatory supports:
+
+- Celestial sky exploration.
+- Astronomical object search.
+- Target discovery.
+- Observation planning.
+- Telescope profile modeling.
+- Synthetic observation generation.
+- Observation visibility calculations.
+- Scheduling optimization.
+- Space mission simulation.
+- Satellite data exploration.
+
+The platform is a research planning and simulation environment, not an unrestricted controller for physical telescopes or spacecraft.
+
+---
+
+# 8. COSMOLOGY AND DARK MATTER INTELLIGENCE
+
+## 8.1 Cosmology Intelligence Lab
+
+The Cosmology Intelligence environment investigates large-scale cosmic structure, cosmological models and universe simulations.
+
+Capabilities:
+
+- Galaxy clustering.
+- Cosmic web analysis.
+- Density field reconstruction.
+- Dark matter modeling.
+- Dark energy exploration.
+- Galaxy population analysis.
+- Cosmological parameter estimation.
+- CMB data analysis.
+- N-body simulation analysis.
+
+## 8.2 Cosmic Web Intelligence
+
+Support classification of:
+
+- Filaments.
+- Voids.
+- Galaxy clusters.
+- Sheets.
+- Density structures.
+
+Model architectures include:
+
+- 3D CNNs.
+- GNNs.
+- Point-cloud networks.
+- Volumetric neural networks.
+- Autoencoders.
+
+## 8.3 Dark Matter Intelligence
+
+Supports:
+
+- Density field reconstruction.
+- Halo identification.
+- Density profile comparison.
+- Gravitational potential modeling.
+- Lensing connections.
+- N-body simulation analysis.
+
+## 8.4 Cosmological Expansion
+
+Support configurable cosmological models.
+
+Include:
+
+- Lambda-CDM.
+- Flat Lambda-CDM.
+- Curved Lambda-CDM.
+- wCDM.
+- Selected extended models.
+
+Explore:
+
+- Hubble parameter.
+- Scale factor.
+- Redshift.
+- Comoving distance.
+- Luminosity distance.
+- Angular diameter distance.
+- Lookback time.
+
+For example, the Hubble expansion relation is represented by:
+
+\[
+H(z)=H_0E(z)
+\]
+
+The function \(E(z)\) depends on the selected cosmological model and its parameters.
+
+## 8.5 Cosmic Microwave Background Intelligence
+
+Supports:
+
+- CMB map visualization.
+- HEALPix-compatible data.
+- Temperature map analysis.
+- Power spectrum exploration.
+- Spherical harmonics.
+- Cosmological likelihood integration.
+- Bayesian parameter inference.
+
+## 8.6 Cosmological Neural Models
+
+Support:
+
+- Cosmic field prediction.
+- Neural surrogate simulations.
+- Galaxy classification.
+- Cosmic structure identification.
+- Graph-based modeling.
+- Uncertainty estimation.
+
+Integration interfaces include established cosmological computation tools such as CLASS and CAMB.
+
+---
+
+# 9. QUANTUM COMPUTING AND QUANTUM MACHINE LEARNING
+
+## 9.1 Quantum Intelligence Center
+
+The Quantum Intelligence Center supports quantum computing experimentation and quantum mechanics simulation.
+
+Capabilities:
+
+- Quantum state simulation.
+- Statevector computation.
+- Density matrix computation.
+- Quantum circuit design.
+- Gate operations.
+- Measurement.
+- Entanglement analysis.
+- Quantum algorithms.
+- Quantum machine learning.
+- Quantum noise.
+- Many-body physics.
+
+## 9.2 Quantum State Analysis
+
+Support:
+
+- State normalization.
+- Complex amplitudes.
+- Density matrices.
+- Partial trace.
+- Quantum fidelity.
+- Trace distance.
+- Purity.
+- Von Neumann entropy.
+- Entanglement measures for appropriate systems.
+
+## 9.3 Quantum Circuit Studio
+
+Gate library:
+
+- Pauli gates.
+- Hadamard.
+- Phase gates.
+- Rotation gates.
+- CNOT.
+- Controlled-Z.
+- SWAP.
+- Toffoli.
+- Measurement.
+
+Features:
+
+- Circuit editor.
+- Parameterized gates.
+- Circuit compilation.
+- Gate optimization.
+- Depth analysis.
+- Backend compatibility.
+
+## 9.4 Quantum Algorithm Lab
+
+Includes:
+
+- Quantum Fourier Transform.
+- Quantum Phase Estimation.
+- Grover's algorithm.
+- Variational Quantum Eigensolver.
+- Quantum Approximate Optimization Algorithm.
+- Educational error correction demonstrations.
+
+## 9.5 Quantum Machine Learning
+
+Support:
+
+- Variational quantum classifiers.
+- Quantum kernels.
+- Quantum neural networks.
+- Hybrid classical-quantum architectures.
+
+Compare quantum simulation results against suitable classical baselines.
+
+## 9.6 Quantum Many-Body Physics
+
+Support:
+
+- Hamiltonian construction.
+- Spin systems.
+- Small lattice systems.
+- Exact diagonalization.
+- State evolution.
+- Open quantum systems.
+- Noise channels.
+- Tensor network integration.
+
+## 9.7 Quantum Backend Interfaces
+
+Prepare compatible adapters for:
+
+- Qiskit.
+- Cirq.
+- PennyLane.
+- QuTiP.
+- Stim.
+- Supported tensor network libraries.
+
+Distinguish local simulation from actual quantum hardware execution.
+
+---
+
+# 10. PARTICLE PHYSICS INTELLIGENCE
+
+## 10.1 Particle Physics Intelligence Center
+
+Supports scientific analysis of high-energy physics datasets and detector event records.
+
+Core capabilities:
+
+- Particle event ingestion.
+- Event reconstruction.
+- Particle classification.
+- Detector modeling.
+- Track reconstruction.
+- Jet classification.
+- Neutrino research.
+- Monte Carlo analysis.
+- Anomaly detection.
+- Statistical model comparison.
+
+## 10.2 Scientific Data Integrations
+
+Prepare connectors for appropriate public resources:
+
+- CERN Open Data.
+- ATLAS public datasets.
+- CMS public datasets.
+- LHCb public data where accessible.
+- Other suitable particle physics benchmarks.
+
+Support ROOT-based scientific workflows.
+
+Relevant processing libraries include:
+
+- Uproot.
+- Awkward Array.
+- Vector.
+- Coffea.
+
+## 10.3 Detector Intelligence
+
+Create interactive 3D detector environments.
+
+Display:
+
+- Tracking layers.
+- Detector geometry.
+- Particle trajectories.
+- Interaction vertices.
+- Calorimeter measurements.
+- Energy deposits.
+- Reconstructed objects.
+
+## 10.4 Graph Neural Network Track Reconstruction
+
+Represent detector measurements as graph nodes and candidate relationships as edges.
+
+Support:
+
+- Edge classification.
+- Hit association.
+- Track construction.
+- Track evaluation.
+- Reconstruction uncertainty.
+
+## 10.5 Particle Classification
+
+Support suitable model architectures for:
+
+- Particle candidate classification.
+- Jet classification.
+- Event categorization.
+- Representation learning.
+
+Use available ground-truth labels and documented datasets.
+
+## 10.6 Neutrino Intelligence
+
+Prepare analysis workflows for appropriate public neutrino research datasets.
+
+Support event metadata, measurement inspection, event classification and anomaly analysis.
+
+## 10.7 Theoretical Particle Physics
+
+Provide:
+
+- Standard Model knowledge explorer.
+- Particle property references.
+- Interaction diagrams.
+- Conservation law calculations.
+- Mathematical expression tools.
+- Feynman diagram editor.
+
+Distinguish educational models from complete field-theory calculations.
+
+---
+
+# 11. MATERIALS SCIENCE AND ATOMIC SIMULATION
+
+## 11.1 Materials Intelligence Center
+
+A computational research environment for materials science and condensed matter physics.
+
+Capabilities:
+
+- Atomic structure analysis.
+- Crystal visualization.
+- Material property prediction.
+- Crystal graph generation.
+- Density Functional Theory integration.
+- Molecular dynamics.
+- Neural interatomic potentials.
+- Electronic structure.
+- Thermodynamic analysis.
+- Generative materials discovery.
+
+## 11.2 Atomic Structure Explorer
+
+Support:
+
+- CIF.
+- POSCAR.
+- XYZ.
+- Extended XYZ.
+- Appropriate molecular formats.
+
+Use scientific structure-processing libraries such as ASE and pymatgen.
+
+## 11.3 Crystal Graph Neural Networks
+
+Represent:
+
+- Atomic species as graph nodes.
+- Neighbor relationships as graph edges.
+- Interatomic geometry as graph attributes.
+
+Support:
+
+- Message passing.
+- Graph convolution.
+- Graph attention.
+- Equivariant networks.
+- SchNet-style architectures.
+- M3GNet-compatible models.
+
+## 11.4 Material Property Prediction
+
+Estimate supported properties such as:
+
+- Formation energy.
+- Energy above hull.
+- Band gap.
+- Density.
+- Elastic properties.
+- Magnetic properties.
+
+Display prediction uncertainty and model domain.
+
+## 11.5 DFT Integration
+
+Prepare integration interfaces for:
+
+- Quantum ESPRESSO.
+- ABINIT.
+- GPAW.
+- CP2K.
+- VASP where properly licensed.
+
+Support:
+
+- Structural relaxation.
+- Total energy.
+- Electronic structure.
+- Density of states.
+- Charge density.
+- Magnetic properties.
+
+## 11.6 Molecular Dynamics
+
+Integrate suitable engines and data formats.
+
+Support:
+
+- Atomic trajectories.
+- Energy.
+- Temperature.
+- Pressure where available.
+- Radial distribution functions.
+- Mean squared displacement.
+
+## 11.7 Neural Interatomic Potentials
+
+Prepare integrations for:
+
+- MACE.
+- NequIP.
+- Allegro.
+- CHGNet.
+- M3GNet.
+
+Compare model predictions against appropriate reference calculations.
+
+## 11.8 Generative Materials Discovery
+
+Support generative structure candidates, inverse property optimization, structural validation and active learning.
+
+Generated structures must be distinguished from synthesized or experimentally verified materials.
+
+---
+
+# 12. PLASMA PHYSICS AND FUSION RESEARCH
+
+## 12.1 Plasma Intelligence Center
+
+A dedicated scientific environment for computational plasma physics and fusion research.
+
+Capabilities:
+
+- Magnetohydrodynamics.
+- Plasma state modeling.
+- Electromagnetic fields.
+- Plasma waves.
+- Turbulence.
+- Energy transport.
+- Physics-informed learning.
+- Neural plasma surrogates.
+- Plasma anomaly detection.
+- Plasma digital twins.
+
+## 12.2 MHD Simulation
+
+Support suitable implementations of:
+
+- Mass conservation.
+- Momentum equations.
+- Magnetic induction.
+- Magnetic divergence constraints.
+- Ideal and selected non-ideal MHD.
+
+## 12.3 Plasma State Analysis
+
+Calculate supported physical properties:
+
+- Electron density.
+- Ion density.
+- Electron temperature.
+- Ion temperature.
+- Plasma frequency.
+- Debye length.
+- Plasma beta.
+
+Validate units and assumptions.
+
+## 12.4 Plasma Turbulence Intelligence
+
+Support:
+
+- Fourier analysis.
+- Power spectral density.
+- Wavelet analysis.
+- Fluctuation statistics.
+- Temporal Transformers.
+- CNNs.
+- Autoencoders.
+
+## 12.5 Neural Plasma Models
+
+Include:
+
+- PINNs.
+- Fourier Neural Operators.
+- DeepONets.
+- Graph Neural Networks.
+- Neural state-space models.
+
+Evaluate physical residuals and field prediction errors.
+
+## 12.6 Fusion Research
+
+Provide educational and computational modeling workflows involving magnetic confinement, plasma states, energy balance and transport models.
+
+Clearly distinguish research simulations from actual fusion facility measurements or operational controls.
+
+## 12.7 Plasma Digital Twins
+
+Combine numerical physical representations with validated machine learning models.
+
+Support calibration, prediction, state monitoring and uncertainty evaluation.
+
+---
+
+# 13. COMPUTATIONAL PHYSICS AND NUMERICAL SIMULATION
+
+## 13.1 Physics Simulation Studio
+
+A unified computational physics laboratory.
+
+Supported domains:
+
+- Classical mechanics.
+- Orbital mechanics.
+- Electromagnetism.
+- Thermodynamics.
+- Fluid dynamics.
+- Wave mechanics.
+- Plasma physics.
+- Quantum mechanics.
+
+## 13.2 Numerical Solver Infrastructure
+
+Support suitable:
+
+- Euler methods.
+- Runge-Kutta methods.
+- Adaptive integration.
+- Symplectic methods.
+- Implicit numerical methods.
+- ODE solvers.
+- PDE solver integrations.
+
+Use established scientific numerical packages.
+
+## 13.3 Physical Equations
+
+Provide reusable equation definitions.
+
+Newton's second law:
+
+\[
+F=ma
+\]
+
+Gravitational force:
+
+\[
+F=G\frac{m_1m_2}{r^2}
+\]
+
+Circular orbital velocity:
+
+\[
+v=\sqrt{\frac{GM}{r}}
+\]
+
+Schwarzschild radius:
+
+\[
+r_s=\frac{2GM}{c^2}
+\]
+
+Heat equation:
+
+\[
+\frac{\partial u}{\partial t}
+=\alpha\nabla^2u
+\]
+
+Wave equation:
+
+\[
+\frac{\partial^2u}{\partial t^2}
+=c^2\nabla^2u
+\]
+
+## 13.4 Inverse Physics
+
+Estimate physical parameters from observations.
+
+Support:
+
+- Nonlinear least squares.
+- Bayesian estimation.
+- Gradient-based optimization.
+- Differentiable simulation.
+- Sensitivity analysis.
+
+## 13.5 Physics Digital Twins
+
+Create reusable computational representations of physical systems.
+
+Track:
+
+- Physical parameters.
+- Equations.
+- Initial conditions.
+- Boundary conditions.
+- Numerical settings.
+- ML approximations.
+- Calibration history.
+- Uncertainty.
+
+## 13.6 Neural Surrogate Models
+
+Train models to approximate computationally expensive simulations.
+
+Compare against numerical reference solutions.
+
+Evaluate speed and accuracy together.
+
+## 13.7 Physics-Aware Optimization
+
+Support:
+
+- Bayesian optimization.
+- Grid search.
+- Random search.
+- Evolutionary methods.
+- Differential evolution.
+- Gradient optimization.
+
+Include physical and numerical constraints.
+
+---
+
+# 14. ADVANCED 3D VISUALIZATION ENGINE
+
+## 14.1 Unified Scientific Renderer
+
+W.O.O.H.O.O. includes a shared 3D visualization infrastructure.
+
+Technologies:
+
+- Three.js.
+- React Three Fiber.
+- Drei.
+- WebGL.
+- WebGPU where supported.
+- GLSL shaders.
+
+The same rendering infrastructure powers all major research modules.
+
+## 14.2 Rendering Architecture
+
+```mermaid
+flowchart TB
+    A[Scientific Data] --> B[Visualization Adapter]
+    B --> C[Scene Manager]
+    C --> D[Camera System]
+    C --> E[Scientific Object Registry]
+    C --> F[Renderer]
+    E --> G[Planetary Objects]
+    E --> H[Particles]
+    E --> I[Atomic Structures]
+    E --> J[Physical Fields]
+    F --> K[Lighting and Shaders]
+    K --> L[Interactive Scene]
+    L --> M[Scientific Annotations]
+```
+
+## 14.3 Scientific Environments
+
+Support:
+
+- Planetary systems.
+- Exoplanet transits.
+- Black holes.
+- Gravitational lensing.
+- Cosmic web.
+- Galaxy clusters.
+- Quantum states.
+- Quantum circuits.
+- Particle detectors.
+- Atomic structures.
+- Molecular dynamics.
+- Plasma fields.
+- Fluid dynamics.
+
+## 14.4 Scientific Rendering Components
+
+Create reusable:
+
+- CelestialBody.
+- StarRenderer.
+- PlanetAtmosphere.
+- OrbitPath.
+- ParticleSystem.
+- FieldVectorRenderer.
+- VolumeRenderer.
+- CrystalStructureRenderer.
+- DetectorGeometry.
+- QuantumBlochSphere.
+- MolecularTrajectory.
+- ScientificAnnotation.
+
+## 14.5 Advanced Visualization
+
+Include:
+
+- Camera presets.
+- Object selection.
+- Raycasting.
+- Particle instancing.
+- Density visualization.
+- Volumetric rendering.
+- Scientific labels.
+- Vector fields.
+- Isosurfaces.
+- Timelines.
+- Scientific coordinate systems.
+
+## 14.6 Performance Optimization
+
+Implement:
+
+- Instanced rendering.
+- Geometry reuse.
+- Frustum culling.
+- Level of detail.
+- Progressive loading.
+- Efficient texture management.
+- GPU rendering where suitable.
+- Memory cleanup.
+- Mobile rendering profiles.
+
+## 14.7 Scientific Transparency
+
+Each visualization should identify whether its content represents:
+
+- Real observations.
+- Numerical simulations.
+- Mathematical calculations.
+- Machine learning predictions.
+- Synthetic demonstrations.
+- Conceptual illustrations.
+
+Visual scaling and cosmetic shader effects must never be confused with measured physical quantities.
+
+---
+
+# 15. VIRTUAL OBSERVATORY AND SPACE MISSION INTELLIGENCE
+
+## 15.1 Virtual Observatory
+
+Supports:
+
+- Celestial sky maps.
+- Astronomical target search.
+- Object metadata.
+- Catalog integrations.
+- Observation planning.
+- Visibility calculations.
+- Telescope configuration.
+- Instrument modeling.
+- Synthetic observations.
+- Observation scheduling.
+
+## 15.2 Astronomical Sources
+
+Prepare documented connector integrations with:
+
+- NASA Exoplanet Archive.
+- MAST.
+- Gaia Archive.
+- VizieR.
+- SIMBAD.
+- NASA/IPAC archives.
+- NOIRLab archive.
+- Public heliophysics sources.
+
+## 15.3 Telescope and Instrument Modeling
+
+Represent:
+
+- Aperture.
+- Focal length.
+- Detector properties.
+- Pixel scale.
+- Exposure.
+- Noise assumptions.
+- Instrument compatibility.
+
+Generate synthetic observations using documented assumptions.
+
+## 15.4 Space Mission Intelligence
+
+Support:
+
+- Orbital propagation.
+- Two-body modeling.
+- Selected perturbation models.
+- Orbital transfers.
+- Trajectory comparisons.
+- Mission timelines.
+- Spacecraft visualization.
+
+## 15.5 Satellite Data
+
+Prepare integrations for appropriate publicly accessible orbital data.
+
+Support:
+
+- TLE processing.
+- SGP4-compatible propagation.
+- Ground tracks.
+- Orbital parameters.
+- Epoch tracking.
+
+Always document data age and propagation limitations.
+
+## 15.6 Observation Scheduling
+
+Support:
+
+- Visibility constraints.
+- Target prioritization.
+- Instrument availability.
+- Time windows.
+- Scheduling optimization.
+- Calendar visualization.
+
+The platform operates as a planning and simulation environment, not an unrestricted controller for physical equipment.
+
+---
+
+# 16. SCIENTIFIC DATA INTELLIGENCE INFRASTRUCTURE
+
+## 16.1 Scientific Data Intelligence Center
+
+Centralized management for heterogeneous scientific datasets.
+
+Support:
+
+- Astronomy data.
+- Particle physics data.
+- Cosmology data.
+- Materials datasets.
+- Plasma observations.
+- Simulation outputs.
+- Quantum experiment records.
+
+## 16.2 Data Lake Architecture
+
+```mermaid
+flowchart TD
+    A[Scientific Data Sources] --> B[Ingestion Layer]
+    B --> C[Raw Data Storage]
+    C --> D[Metadata Extraction]
+    D --> E[Quality Validation]
+    E --> F[Processing Pipelines]
+    F --> G[Processed Data Storage]
+    G --> H[Feature Engineering]
+    H --> I[Research-Ready Datasets]
+    I --> J[AI and Physics Systems]
+```
+
+## 16.3 Supported Formats
+
+- FITS.
+- ROOT.
+- CSV.
+- JSON.
+- Parquet.
+- HDF5.
+- NetCDF.
+- Zarr.
+- CIF.
+- XYZ.
+- Other supported scientific formats.
+
+Use format-specific processing libraries.
+
+## 16.4 Scientific Dataset Connectors
+
+Integrate appropriate public scientific repositories.
+
+Examples include:
+
+- NASA Exoplanet Archive.
+- MAST.
+- ESA Gaia Archive.
+- CERN Open Data.
+- Materials Project.
+- NOMAD.
+- Public gravitational-wave datasets.
+- Public plasma research datasets.
+
+## 16.5 Dataset Quality
+
+Inspect:
+
+- Missing values.
+- Invalid records.
+- Units.
+- Coordinate systems.
+- Duplicate observations.
+- Timestamp consistency.
+- Schema changes.
+- Measurement uncertainty.
+- Data licensing.
+
+## 16.6 Astronomical Cross-Matching
+
+Support:
+
+- Coordinate matching.
+- Angular separation.
+- Proper motion.
+- Epoch transformation.
+- Catalog comparison.
+- Probabilistic matching.
+
+## 16.7 Data Provenance
+
+Maintain source-to-prediction lineage.
+
+```mermaid
+flowchart TD
+    A[External Dataset] --> B[Raw Artifact]
+    B --> C[Validation]
+    C --> D[Preprocessing]
+    D --> E[Dataset Version]
+    E --> F[Model Training]
+    F --> G[Model Version]
+    G --> H[Prediction]
+    H --> I[Evaluation]
+    I --> J[Research Report]
+```
+
+Every stage must be traceable.
+
+---
+
+# 17. MULTI-AGENT SCIENTIFIC RESEARCH
+
+## 17.1 Scientific Agent Architecture
+
+W.O.O.H.O.O. includes an extensible agent environment for coordinating research workflows.
+
+Specialized agents include:
+
+- Research Coordinator.
+- Astrophysics Agent.
+- Cosmology Agent.
+- Quantum Physics Agent.
+- Particle Physics Agent.
+- Materials Science Agent.
+- Plasma Physics Agent.
+- Mathematics Agent.
+- Machine Learning Architect.
+- Dataset Intelligence Agent.
+- Numerical Simulation Agent.
+- Model Evaluation Agent.
+- Literature Research Agent.
+- Report Generation Agent.
+
+## 17.2 Hierarchical Orchestration
+
+```mermaid
+flowchart TD
+    A[Research Director] --> B[Task Decomposition]
+
+    B --> C[Dataset Agent]
+    B --> D[Physics Agent]
+    B --> E[Machine Learning Agent]
+    B --> F[Mathematics Agent]
+
+    C --> G[Experiment Manager]
+    D --> G
+    E --> G
+    F --> G
+
+    G --> H[Computational Execution]
+    H --> I[Evaluation Agent]
+    I --> J[Independent Review]
+    J --> K[Report Generation]
+    K --> L[Human Approval]
+```
+
+## 17.3 Agent Capabilities
+
+Agents can:
+
+- Retrieve authorized datasets.
+- Inspect schemas.
+- Suggest physical equations.
+- Generate experiment configurations.
+- Run approved tools.
+- Review numerical outputs.
+- Evaluate models.
+- Search connected scientific references.
+- Generate research reports.
+
+## 17.4 Workflow Management
+
+Support:
+
+- Sequential execution.
+- Parallel execution.
+- Task dependencies.
+- Cancellation.
+- Retry.
+- Logging.
+- Failure recovery.
+- Human approval.
+
+## 17.5 Research Memory
+
+Maintain workspace-specific research context:
+
+- Objectives.
+- Datasets.
+- Experiments.
+- Models.
+- Notes.
+- References.
+- Reports.
+- Approved conclusions.
+
+Never mix private records between workspaces.
+
+---
+
+# 18. DATABASE ARCHITECTURE
+
+## 18.1 Database Strategy
+
+Use PostgreSQL as the central relational data store.
+
+Use object storage for larger scientific artifacts.
+
+Use pgvector or an equivalent vector indexing system for suitable semantic retrieval workflows.
+
+The exact schema is modular and shared across application domains.
+
+## 18.2 Core Entities
+
+| Table or entity | Purpose |
+|---|---|
+| profiles | User profiles |
+| workspaces | Research workspaces |
+| datasets | Scientific datasets |
+| dataset_versions | Dataset version control |
+| scientific_data_sources | External data connections |
+| experiments | Research experiments |
+| experiment_metrics | Evaluation measurements |
+| model_registry | ML models |
+| model_versions | Versioned model artifacts |
+| training_runs | Training execution |
+| simulation_runs | Physics computations |
+| simulation_metrics | Numerical diagnostics |
+| physics_models | Governing physical models |
+| research_investigations | Discovery projects |
+| research_hypotheses | Scientific hypotheses |
+| hypothesis_evidence | Evidence records |
+| scientific_knowledge | Research documents |
+| agent_workflows | Agent orchestration |
+| agent_execution_logs | Agent execution history |
+| quantum_circuits | Quantum circuit definitions |
+| quantum_states | Quantum state records |
+| quantum_experiments | Quantum experiments |
+| cosmological_models | Cosmological configurations |
+| material_records | Materials information |
+| atomic_structures | Crystal and molecular structures |
+| plasma_models | Plasma computational models |
+| particle_events | Particle physics records |
+| observatories | Observatory configurations |
+| observation_plans | Research observation plans |
+
+## 18.3 Data Ownership
+
+All user-owned entities should be associated with a workspace.
+
+Row-level security should ensure authorized access.
+
+Apply appropriate policies to:
+
+- Datasets.
+- Experiments.
+- Models.
+- Research projects.
+- Simulation artifacts.
+- Documents.
+- Reports.
+
+## 18.4 Database Design Principles
+
+Use:
+
+- Foreign keys.
+- Unique constraints.
+- Appropriate indexes.
+- Versioned artifacts.
+- JSONB for flexible metadata.
+- Explicit units.
+- Timestamp consistency.
+- Audit history.
+
+Avoid storing large binary scientific files directly in ordinary relational records.
+
+Store artifact references instead.
+
+---
+
+# 19. API ARCHITECTURE
+
+## 19.1 API Design
+
+The backend exposes versioned APIs through FastAPI.
+
+Core route organization:
 
 ```text
-woohoo-wonder-labs/
+/api/v1/
+    auth/
+    users/
+    workspaces/
+    ai/
+    models/
+    datasets/
+    experiments/
+    discovery/
+    astronomy/
+    exoplanets/
+    cosmology/
+    quantum/
+    particles/
+    materials/
+    plasma/
+    physics/
+    simulations/
+    observatory/
+    mission/
+    reports/
+```
+
+## 19.2 Scientific AI API
+
+Example endpoints:
+
+```http
+POST /api/v1/ai/classify-task
+POST /api/v1/ai/reason
+POST /api/v1/ai/multimodal-analysis
+POST /api/v1/ai/predict
+POST /api/v1/ai/evaluate-prediction
+POST /api/v1/ai/research-workflow
+GET  /api/v1/ai/models
+```
+
+## 19.3 Experiment API
+
+```http
+POST /api/v1/experiments
+GET  /api/v1/experiments
+GET  /api/v1/experiments/{id}
+POST /api/v1/experiments/{id}/run
+POST /api/v1/experiments/{id}/cancel
+GET  /api/v1/experiments/{id}/metrics
+```
+
+## 19.4 Dataset API
+
+```http
+POST /api/v1/data/ingestion
+GET  /api/v1/data/datasets
+GET  /api/v1/data/datasets/{id}
+POST /api/v1/data/validate
+POST /api/v1/data/search
+POST /api/v1/data/catalog/crossmatch
+GET  /api/v1/data/lineage/{datasetId}
+```
+
+## 19.5 Physics API
+
+```http
+POST /api/v1/physics/models
+POST /api/v1/physics/simulations
+POST /api/v1/physics/simulations/{id}/run
+POST /api/v1/physics/surrogates/train
+POST /api/v1/physics/inverse/estimate
+POST /api/v1/physics/optimization/run
+GET  /api/v1/physics/jobs/{id}
+```
+
+## 19.6 API Standards
+
+Use:
+
+- Typed request schemas.
+- Typed response schemas.
+- Input validation.
+- Authentication.
+- Authorization.
+- Rate limiting.
+- Request identifiers.
+- Structured error messages.
+- API versioning.
+
+Long-running operations should execute asynchronously.
+
+---
+
+# 20. SECURITY AND SCIENTIFIC INTEGRITY
+
+## 20.1 Authentication and Authorization
+
+Implement secure authentication.
+
+Enforce workspace-level access controls.
+
+Use row-level security for relevant records.
+
+## 20.2 Secrets Management
+
+Store:
+
+- AI provider credentials.
+- Scientific data credentials.
+- Quantum hardware credentials.
+- Storage credentials.
+- External service credentials.
+
+On the backend or in an approved secrets manager.
+
+Never expose secrets through frontend bundles or public GitHub files.
+
+## 20.3 Computational Resource Controls
+
+Implement:
+
+- Job quotas.
+- Maximum execution times.
+- Memory limits.
+- GPU resource checks.
+- File size restrictions.
+- Background job cancellation.
+- Controlled retries.
+
+Prevent uncontrolled computational allocation.
+
+## 20.4 Scientific Data Integrity
+
+Clearly distinguish:
+
+| Data category | Description |
+|---|---|
+| Observational | Actual retrieved scientific observations |
+| Experimental | Published or supplied experimental measurements |
+| Numerical | Outputs from computational solvers |
+| Predictive | Machine learning outputs |
+| Synthetic | Artificially generated demonstration data |
+| Conceptual | Educational and illustrative models |
+
+## 20.5 AI Reliability
+
+The platform should never:
+
+- Invent source citations.
+- Fabricate scientific observations.
+- Claim a simulation executed when it did not.
+- Report fabricated model performance.
+- Present predictions as established measurements.
+- Interpret correlation as automatic proof of causation.
+- Hide uncertainty.
+- Claim a new scientific discovery based only on an anomaly score.
+
+Every research conclusion should be traceable to available evidence.
+
+---
+
+# 21. INSTALLATION AND CONFIGURATION
+
+## 21.1 Prerequisites
+
+Recommended development environment:
+
+- Node.js.
+- npm or an equivalent package manager.
+- Python 3.
+- Git.
+- PostgreSQL or Supabase.
+- Access to configured scientific compute services.
+- Docker for containerized deployments where used.
+
+Additional resources may be needed for specific numerical simulations, GPU training and scientific file processing.
+
+## 21.2 Clone the Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/woohoo-discovery-engine.git
+
+cd woohoo-discovery-engine
+```
+
+Replace the repository URL with the actual project URL.
+
+## 21.3 Frontend Installation
+
+```bash
+npm install
+```
+
+Start the development environment:
+
+```bash
+npm run dev
+```
+
+Build the production frontend:
+
+```bash
+npm run build
+```
+
+Run code quality checks:
+
+```bash
+npm run lint
+```
+
+## 21.4 Python Backend Setup
+
+Create a virtual environment:
+
+```bash
+python -m venv .venv
+```
+
+Activate it.
+
+macOS/Linux:
+
+```bash
+source .venv/bin/activate
+```
+
+Windows:
+
+```powershell
+.venv\Scripts\activate
+```
+
+Install backend dependencies:
+
+```bash
+pip install -r backend/requirements.txt
+```
+
+Start the FastAPI service:
+
+```bash
+uvicorn backend.main:app --reload --port 8000
+```
+
+API documentation:
+
+```text
+http://localhost:8000/docs
+```
+
+Adjust the module path to match the actual backend entry point.
+
+## 21.5 Environment Configuration
+
+Create a local environment file.
+
+Example:
+
+```env
+# Application
+APP_NAME=WOOHOO_DISCOVERY_ENGINE
+APP_ENV=development
+APP_VERSION=1.0.0
+
+# Frontend
+VITE_API_BASE_URL=http://localhost:8000/api/v1
+
+# Backend
+API_HOST=0.0.0.0
+API_PORT=8000
+
+# Database
+DATABASE_URL=your_database_connection
+
+# Supabase
+SUPABASE_URL=your_supabase_url
+SUPABASE_ANON_KEY=your_public_anon_key
+SUPABASE_SERVICE_ROLE_KEY=your_private_service_role_key
+
+# Storage
+OBJECT_STORAGE_ENDPOINT=
+OBJECT_STORAGE_BUCKET=
+
+# AI Providers
+OPENAI_API_KEY=
+ANTHROPIC_API_KEY=
+
+# Research Data
+NASA_API_KEY=
+CERN_DATA_ENDPOINT=
+
+# Scientific Compute
+COMPUTE_WORKER_ENABLED=true
+MAX_CONCURRENT_JOBS=2
+
+# Quantum Integrations
+QUANTUM_BACKEND_PROVIDER=
+QUANTUM_BACKEND_API_KEY=
+
+# Monitoring
+LOG_LEVEL=INFO
+```
+
+Only populate the credentials for services actually configured.
+
+Use deployment secrets for production credentials.
+
+Never commit real `.env` files to GitHub.
+
+## 21.6 Database Setup
+
+Apply the existing database migration system.
+
+```bash
+supabase migration list
+```
+
+Run the applicable migrations through the project's configured Supabase workflow.
+
+Verify:
+
+- Database connectivity.
+- Row-level security.
+- Workspace isolation.
+- Storage permissions.
+- Foreign key integrity.
+- Index availability.
+
+Do not assume that frontend environment configuration alone secures backend operations.
+
+## 21.7 Demo Mode
+
+The application provides an explicitly labeled demo environment.
+
+Demonstration capabilities may include:
+
+- Synthetic stellar light curves.
+- Example planetary systems.
+- Sample particle events.
+- Example quantum circuits.
+- Synthetic atomic structures.
+- Demonstration plasma fields.
+- Example cosmological density volumes.
+- Sample simulation histories.
+
+Demo mode should allow users to explore the application without external API credentials.
+
+Clearly distinguish demonstration outputs from actual observations and completed scientific computations.
+
+---
+
+# 22. TESTING AND EVALUATION
+
+## 22.1 Testing Strategy
+
+W.O.O.H.O.O. uses multiple testing layers.
+
+**Frontend testing**
+- Component tests.
+- Navigation.
+- Form validation.
+- Chart interactions.
+- Scene lifecycle.
+- Responsive layouts.
+
+**Backend testing**
+- API validation.
+- Authentication.
+- Database access.
+- Job management.
+- File processing.
+
+**Machine learning testing**
+- Input schema.
+- Model inference.
+- Training reproducibility.
+- Calibration.
+- Generalization.
+- Error analysis.
+
+**Scientific testing**
+- Unit conversion.
+- Mathematical formulas.
+- Numerical solver comparison.
+- Physical constraints.
+- Reference calculations.
+
+## 22.2 Scientific Reference Tests
+
+Use documented reference problems.
+
+Examples include:
+
+- Two-body orbital motion.
+- Harmonic oscillator.
+- One-dimensional heat equation.
+- Simple wave equation.
+- Quantum state normalization.
+- Bell-state preparation.
+- Exact diagonalization of small Hamiltonians.
+- Known crystal structure parsing.
+- Dimensional consistency tests.
+
+## 22.3 ML Evaluation
+
+Track:
+
+- Training/validation separation.
+- Test performance.
+- Calibration.
+- Out-of-distribution behavior.
+- Prediction uncertainty.
+- Model complexity.
+- Inference latency.
+
+Avoid information leakage between training and testing.
+
+## 22.4 Visualization Testing
+
+Test:
+
+- Scene initialization.
+- Camera controls.
+- Object selection.
+- Scientific annotation.
+- Numerical state synchronization.
+- Resource disposal.
+- WebGL compatibility.
+- Responsive behavior.
+
+## 22.5 Reproducibility
+
+Store configurations required to recreate experiments.
+
+Include:
+
+- Model version.
+- Data version.
+- Random seed where applicable.
+- Numerical tolerances.
+- Software environment.
+- Input parameters.
+- Reference method.
+
+---
+
+# 23. DEPLOYMENT AND INFRASTRUCTURE
+
+## 23.1 Deployment Architecture
+
+```mermaid
+flowchart TB
+    USER[User Browser]
+
+    subgraph CLOUD["CLOUD ENVIRONMENT"]
+        WEB[Frontend Hosting]
+        API[FastAPI Backend]
+        DB[(PostgreSQL)]
+        STORAGE[(Object Storage)]
+        QUEUE[(Redis / Job Queue)]
+        WORKER[Scientific Workers]
+        GPU[GPU Compute]
+    end
+
+    USER --> WEB
+    WEB --> API
+
+    API --> DB
+    API --> STORAGE
+    API --> QUEUE
+
+    QUEUE --> WORKER
+    WORKER --> GPU
+    WORKER --> STORAGE
+
+    GPU --> WORKER
+    WORKER --> DB
+```
+
+## 23.2 Hosting Strategy
+
+Recommended deployment separation:
+
+| Component | Suggested infrastructure |
+|---|---|
+| Frontend | Static or edge hosting |
+| Backend APIs | Containerized application hosting |
+| Database | Managed PostgreSQL |
+| Scientific files | Object storage |
+| Job queue | Redis or equivalent |
+| ML inference | CPU/GPU workers |
+| Large simulations | Dedicated computational workers |
+| Monitoring | Centralized logs and metrics |
+
+## 23.3 Containerization
+
+For deployments using Docker, define separate services for:
+
+- Frontend.
+- Backend API.
+- Worker.
+- Database or external database connection.
+- Redis.
+- Optional ML inference service.
+
+Keep GPU-specific containers separate where required.
+
+## 23.4 Background Job Management
+
+Every computational job should support:
+
+- Unique job ID.
+- Execution state.
+- Logs.
+- Resource requirements.
+- Progress updates.
+- Output references.
+- Failure messages.
+- Cancellation.
+
+## 23.5 Monitoring
+
+Monitor:
+
+- API latency.
+- Request errors.
+- Database availability.
+- Worker health.
+- GPU availability.
+- Queue length.
+- Simulation execution.
+- AI service availability.
+- Storage utilization.
+
+Do not expose sensitive data in unrestricted logs.
+
+## 23.6 Backup and Recovery
+
+Maintain appropriate backups for:
+
+- Database records.
+- Research workspaces.
+- Model metadata.
+- Simulation configurations.
+- Dataset metadata.
+- Scientific reports.
+
+Large artifact backups should use suitable object storage versioning and lifecycle policies.
+
+---
+
+# 24. PROJECT STRUCTURE
+
+## 24.1 Recommended Monorepo Structure
+
+```text
+woohoo-discovery-engine/
 │
-├── README.md
-├── LICENSE
-├── CONTRIBUTING.md
-├── SECURITY.md
-├── CHANGELOG.md
-│
-├── apps/
-│   ├── web/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── features/
-│   │   ├── hooks/
-│   │   ├── services/
-│   │   └── styles/
+├── frontend/
+│   ├── public/
 │   │
-│   └── mobile/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── layout/
+│   │   │   ├── dashboard/
+│   │   │   ├── scientific/
+│   │   │   ├── datasets/
+│   │   │   ├── charts/
+│   │   │   ├── visualization/
+│   │   │   ├── experiments/
+│   │   │   └── agents/
+│   │   │
+│   │   ├── modules/
+│   │   │   ├── discovery/
+│   │   │   ├── exoplanets/
+│   │   │   ├── astronomy/
+│   │   │   ├── cosmology/
+│   │   │   ├── quantum/
+│   │   │   ├── particles/
+│   │   │   ├── materials/
+│   │   │   ├── plasma/
+│   │   │   ├── physics/
+│   │   │   ├── observatory/
+│   │   │   └── research/
+│   │   │
+│   │   ├── scenes/
+│   │   │   ├── stars/
+│   │   │   ├── planets/
+│   │   │   ├── orbits/
+│   │   │   ├── blackholes/
+│   │   │   ├── galaxies/
+│   │   │   ├── cosmic-web/
+│   │   │   ├── quantum/
+│   │   │   ├── particles/
+│   │   │   ├── atoms/
+│   │   │   └── plasma/
+│   │   │
+│   │   ├── services/
+│   │   ├── hooks/
+│   │   ├── types/
+│   │   ├── utils/
+│   │   └── lib/
+│   │
+│   └── package.json
 │
-├── services/
+├── backend/
 │   ├── api/
-│   ├── ai-engine/
-│   ├── orchestration/
-│   ├── experiment-engine/
-│   ├── evaluation/
-│   └── asset-processing/
+│   │   ├── routes/
+│   │   ├── schemas/
+│   │   └── middleware/
+│   │
+│   ├── ai/
+│   │   ├── orchestration/
+│   │   ├── models/
+│   │   ├── multimodal/
+│   │   ├── evaluation/
+│   │   ├── agents/
+│   │   └── rag/
+│   │
+│   ├── science/
+│   │   ├── astronomy/
+│   │   ├── cosmology/
+│   │   ├── quantum/
+│   │   ├── particles/
+│   │   ├── materials/
+│   │   ├── plasma/
+│   │   └── physics/
+│   │
+│   ├── simulation/
+│   │   ├── orbital/
+│   │   ├── mhd/
+│   │   ├── fluid/
+│   │   ├── quantum/
+│   │   └── cosmology/
+│   │
+│   ├── data/
+│   │   ├── connectors/
+│   │   ├── ingestion/
+│   │   ├── preprocessing/
+│   │   ├── validation/
+│   │   └── lineage/
+│   │
+│   ├── workers/
+│   ├── services/
+│   ├── models/
+│   ├── database/
+│   ├── tests/
+│   └── main.py
 │
-├── packages/
-│   ├── shared-types/
-│   ├── validation/
-│   ├── prompt-library/
-│   ├── ai-adapters/
-│   └── utilities/
+├── supabase/
+│   ├── migrations/
+│   ├── functions/
+│   └── seed.sql
 │
 ├── infrastructure/
 │   ├── docker/
 │   ├── deployment/
 │   ├── monitoring/
-│   └── database/
+│   └── configuration/
 │
 ├── docs/
 │   ├── architecture/
 │   ├── api/
-│   ├── security/
-│   └── product/
+│   ├── ai/
+│   ├── physics/
+│   ├── datasets/
+│   ├── simulations/
+│   └── research/
 │
 ├── scripts/
-│
-└── tests/
-    ├── unit/
-    ├── integration/
-    ├── e2e/
-    ├── performance/
-    └── evaluation/
+├── .env.example
+├── .gitignore
+├── docker-compose.yml
+├── package.json
+└── README.md
 ```
+
+## 24.2 Code Organization Principles
+
+Maintain:
+
+- Reusable scientific components.
+- Typed API contracts.
+- Separation between frontend and computation.
+- Modular research services.
+- Independent model adapters.
+- Consistent error handling.
+- Versioned experiments.
+- Shared visualization components.
+
+Avoid duplicating scientific computation logic across individual modules.
 
 ---
 
-# 4. AI INTELLIGENCE INFRASTRUCTURE
+# 25. FUTURE RESEARCH DIRECTIONS
 
-## 4.1 Overview
+## 25.1 Scientific Foundation Models
 
-The AI Intelligence Layer provides a centralized interface for interacting with different AI capabilities.
+Continue expanding specialized scientific models capable of learning from:
 
-Rather than binding the application to one provider, the platform should use a provider-independent abstraction.
+- Astronomical imagery.
+- Time-series observations.
+- Numerical simulation fields.
+- Atomic structures.
+- Quantum states.
+- Particle event representations.
+- Physical equations.
 
-This architecture allows models to be changed, evaluated, or supplemented without restructuring the application.
+Investigate compatible pretrained models and domain-specific fine-tuning.
 
-## 4.2 AI Capability Categories
+## 25.2 Automated Scientific Discovery
 
-| Category | Function |
-|---|---|
-| Language Models | Reasoning and text generation |
-| Embedding Models | Semantic representations |
-| Vision Models | Image understanding |
-| Speech Models | Audio transcription and processing |
-| Generative Models | Creative content generation |
-| Classification Models | Categorization |
-| Predictive Models | Forecasting and estimation |
-| Deterministic Algorithms | Reproducible computation |
+Expand research workflows for:
 
-## 4.3 Model Router
+- Hypothesis generation.
+- Equation discovery.
+- Causal analysis.
+- Experimental design.
+- Active learning.
+- Independent validation.
 
-The model router determines which provider and capability should handle a request.
+## 25.3 Neural Simulation
 
-Inputs include:
+Investigate:
 
-- Requested capability.
-- Selected provider.
-- Model configuration.
-- Context length.
-- Latency requirements.
-- Cost constraints.
-- Data handling requirements.
-- Model availability.
+- Neural operators.
+- Differentiable simulation.
+- Hybrid physics-AI models.
+- Reduced-order modeling.
+- Scientific digital twins.
 
-```mermaid
-flowchart TD
-    A["Incoming AI Request"] --> B["Validate Request"]
-    B --> C["Identify Task Type"]
-    C --> D["Check Provider Availability"]
-    D --> E["Check Model Capabilities"]
-    E --> F["Apply Routing Policy"]
-    F --> G["Select Provider"]
-    G --> H["Execute Request"]
-    H --> I{"Execution Successful?"}
-    I -->|Yes| J["Normalize Response"]
-    I -->|No| K["Error Handling"]
-    K --> L["Retry or Approved Fallback"]
-    L --> J
-    J --> M["Return Result"]
-```
+## 25.4 Advanced Multimodal Intelligence
 
-## 4.4 Provider Adapter Pattern
+Continue integrating:
 
-Each external model provider should implement a shared interface.
+- Images.
+- Equations.
+- Graphs.
+- Time-series.
+- Scientific tables.
+- Spatial fields.
+- Simulation outputs.
 
-Example TypeScript contract:
+## 25.5 Large-Scale Scientific Computation
 
-```typescript
-export interface AIMessage {
-  role: "system" | "user" | "assistant";
-  content: string;
-}
+Expand compatible infrastructure for:
 
-export interface AIRequest {
-  messages: AIMessage[];
-  model?: string;
-  temperature?: number;
-  maxTokens?: number;
-  metadata?: Record<string, unknown>;
-}
+- GPU computing.
+- Distributed simulations.
+- Model parallelism where appropriate.
+- Large-scale scientific data processing.
+- Experiment orchestration.
 
-export interface AIResponse {
-  content: string;
-  model: string;
-  provider: string;
-  usage?: {
-    inputTokens?: number;
-    outputTokens?: number;
-  };
-  finishReason?: string;
-}
+## 25.6 Cross-Disciplinary AI
 
-export interface AIProvider {
-  readonly name: string;
+Investigate opportunities to connect:
 
-  generate(
-    request: AIRequest
-  ): Promise<AIResponse>;
+- Cosmology and graph learning.
+- Quantum information and AI.
+- Materials science and neural interatomic potentials.
+- Plasma physics and neural operators.
+- Particle physics and graph neural networks.
+- Astrophysics and multimodal scientific foundation models.
 
-  validateConfiguration(): Promise<boolean>;
+## 25.7 Scientific Collaboration
 
-  getCapabilities(): Promise<string[]>;
-}
-```
+Future development opportunities include:
 
-Individual provider implementations can then be isolated.
-
-```typescript
-class ProviderRegistry {
-  private providers = new Map<string, AIProvider>();
-
-  register(provider: AIProvider): void {
-    if (this.providers.has(provider.name)) {
-      throw new Error(
-        `Provider already registered: ${provider.name}`
-      );
-    }
-
-    this.providers.set(provider.name, provider);
-  }
-
-  get(name: string): AIProvider {
-    const provider = this.providers.get(name);
-
-    if (!provider) {
-      throw new Error(
-        `Unknown AI provider: ${name}`
-      );
-    }
-
-    return provider;
-  }
-
-  list(): string[] {
-    return [...this.providers.keys()];
-  }
-}
-```
-
-## 4.5 Model Selection Policies
-
-The platform can support several policies.
-
-**Capability-first routing:** Choose a model capable of processing the requested input.
-
-**Quality-first routing:** Prefer models with stronger evaluation results for the relevant task.
-
-**Latency-aware routing:** Prefer providers meeting defined response-time requirements.
-
-**Cost-aware routing:** Prefer providers operating within a configured budget.
-
-**Privacy-aware routing:** Restrict sensitive data to approved processing environments.
-
-These policies should be configurable and transparent.
-
-## 4.6 Resilient Execution
-
-AI requests should support:
-
-- Request timeouts.
-- Exponential backoff.
-- Provider-specific retry policies.
-- Request cancellation.
-- Idempotency keys.
-- Usage accounting.
-- Structured error responses.
-- Circuit breakers.
-- Fallback models where authorized.
-
-A fallback should never silently change a privacy or data residency requirement.
+- Shared research workspaces.
+- Collaborative experiment review.
+- Research report versioning.
+- Published reproducible experiment configurations.
+- Scientific dataset collections.
+- Community-contributed model integrations.
 
 ---
 
-# 5. MULTI-AGENT ORCHESTRATION
+# CONCLUSION
 
-## 5.1 Agent Architecture
+W.O.O.H.O.O. Discovery Engine represents a unified approach to artificial intelligence, machine learning and computational science.
 
-WooHoo Wonder Labs can use specialized agents to divide complex experimentation tasks into smaller, more manageable operations.
+Its architecture brings together specialized scientific applications and shared infrastructure for:
 
-An agent should have a defined responsibility, bounded context, permitted tools, input schema, output schema, and execution policy.
+- Scientific discovery.
+- Computational physics.
+- Deep learning.
+- Multimodal intelligence.
+- Mathematical modeling.
+- Quantum computing.
+- Cosmological research.
+- Astrophysics.
+- Particle physics.
+- Materials discovery.
+- Plasma physics.
+- Advanced 3D visualization.
+- Autonomous research workflows.
 
-## 5.2 Proposed Agent Roles
+The platform is designed around a simple principle:
 
-| Agent | Responsibility |
-|---|---|
-| Research Agent | Organize background information |
-| Ideation Agent | Generate alternative concepts |
-| Planning Agent | Produce experiment plans |
-| Technical Agent | Analyze implementation requirements |
-| Creative Agent | Explore creative directions |
-| Validation Agent | Check outputs against requirements |
-| Evaluation Agent | Compare experimental results |
-| Documentation Agent | Generate structured documentation |
-| Coordinator Agent | Delegate tasks and consolidate outputs |
+**Scientific AI should be connected to actual data, mathematical models, validated computation and reproducible research.**
 
-These are proposed functional roles, not assertions about currently deployed agents.
+Every model should be traceable.
 
-## 5.3 Agent Collaboration Architecture
+Every simulation should be reproducible.
 
-```mermaid
-flowchart TB
+Every prediction should have an identifiable source and appropriate uncertainty.
 
-    USER["User Request"]
+Every research workflow should preserve its assumptions and limitations.
 
-    ORCH["Central Coordinator"]
+Every visualization should communicate the underlying scientific data faithfully.
 
-    subgraph SPECIALISTS["SPECIALIZED AGENTS"]
-        A["Research Agent"]
-        B["Ideation Agent"]
-        C["Planning Agent"]
-        D["Technical Agent"]
-        E["Validation Agent"]
-        F["Evaluation Agent"]
-    end
-
-    MEMORY[("Shared Project Context")]
-    TOOLS["Approved Tool Registry"]
-    RESULT["Consolidated Response"]
-
-    USER --> ORCH
-
-    ORCH --> A
-    ORCH --> B
-    A --> MEMORY
-    B --> MEMORY
-
-    A --> C
-    B --> C
-
-    C --> D
-    D --> TOOLS
-    D --> E
-
-    E --> F
-    F --> MEMORY
-
-    MEMORY --> ORCH
-    ORCH --> RESULT
-```
-
-## 5.4 Agent Execution Lifecycle
-
-```mermaid
-stateDiagram-v2
-    [*] --> Created
-    Created --> Validating
-    Validating --> Ready
-    Validating --> Rejected
-    Ready --> Running
-    Running --> Waiting
-    Waiting --> Running
-    Running --> Completed
-    Running --> Failed
-    Failed --> Retrying
-    Retrying --> Running
-    Completed --> Reviewed
-    Reviewed --> [*]
-    Rejected --> [*]
-```
-
-## 5.5 Agent Configuration
-
-Example configuration:
-
-```typescript
-export interface AgentConfig {
-  id: string;
-  name: string;
-  description: string;
-  role: string;
-
-  capabilities: string[];
-
-  systemPrompt: string;
-
-  allowedTools: string[];
-
-  maxSteps: number;
-
-  timeoutMs: number;
-
-  requiresHumanApproval: boolean;
-}
-```
-
-The `requiresHumanApproval` setting provides a mechanism for requiring explicit review before actions with meaningful external effects.
-
-## 5.6 Delegation and Task Management
-
-Complex requests should be decomposed into independent tasks.
-
-Each task should have:
-
-- Unique identifier.
-- Parent execution identifier.
-- Assigned agent.
-- Task description.
-- Input context.
-- Expected output.
-- Execution status.
-- Start timestamp.
-- Completion timestamp.
-- Error information.
-
-The coordinator should retain ownership of the overall objective and decide how to combine outputs.
-
-## 5.7 Agent Communication
-
-An event-based architecture can coordinate agent activities.
-
-Example event:
-
-```typescript
-interface AgentTaskEvent {
-  eventId: string;
-  executionId: string;
-  taskId: string;
-  agentId: string;
-
-  type:
-    | "task.created"
-    | "task.started"
-    | "task.completed"
-    | "task.failed";
-
-  timestamp: string;
-
-  payload: Record<string, unknown>;
-}
-```
-
-Events should be validated before entering the execution pipeline.
-
-## 5.8 Preventing Uncontrolled Agent Execution
-
-Agent orchestration must have bounded execution.
-
-Recommended controls:
-
-- Maximum task count.
-- Maximum agent iterations.
-- Maximum execution duration.
-- Maximum model usage.
-- Tool allowlists.
-- Per-project resource limits.
-- Cancellation support.
-- Human approval gates.
-- Structured output validation.
-
-The platform should avoid uncontrolled recursive delegation or unlimited agent-to-agent conversations.
-
----
-
-# 6. CREATIVE EXPERIMENTATION ENGINE
-
-## 6.1 Purpose
-
-The Experimentation Engine is the central mechanism for converting an idea into an organized, executable experiment.
-
-Each experiment should be treated as a structured object with an identifiable objective, configuration, inputs, outputs, and evaluation criteria.
-
-## 6.2 Experiment Components
-
-```typescript
-export interface Experiment {
-  id: string;
-
-  projectId: string;
-
-  name: string;
-
-  description: string;
-
-  category: string;
-
-  status:
-    | "draft"
-    | "configured"
-    | "queued"
-    | "running"
-    | "completed"
-    | "failed"
-    | "cancelled";
-
-  configuration: Record<string, unknown>;
-
-  inputReferences: string[];
-
-  outputReferences: string[];
-
-  evaluationId?: string;
-
-  createdAt: string;
-
-  updatedAt: string;
-}
-```
-
-## 6.3 Experiment Pipeline
-
-```mermaid
-flowchart TD
-
-    A["Create Experiment"] --> B["Define Objective"]
-    B --> C["Select Experiment Category"]
-    C --> D["Configure Parameters"]
-    D --> E["Attach Inputs"]
-    E --> F["Validate Configuration"]
-    F --> G["Queue Execution"]
-    G --> H["Execute Experiment"]
-    H --> I["Collect Outputs"]
-    I --> J["Evaluate Results"]
-    J --> K["Store Experiment"]
-    K --> L["Compare or Iterate"]
-```
-
-## 6.4 Experiment Categories
-
-The platform should support extensible categories such as:
-
-**Creative exploration**
-
-Investigating variations of ideas, narratives, concepts, and design directions.
-
-**AI experimentation**
-
-Comparing AI model configurations, prompts, and outputs.
-
-**Technical prototyping**
-
-Exploring software architectures, API interactions, and implementation strategies.
-
-**Scientific exploration**
-
-Organizing computational experiments and recording research parameters.
-
-**Educational experimentation**
-
-Creating guided explorations and structured learning activities.
-
-**Automation experiments**
-
-Evaluating workflow behavior and different automation configurations.
-
-## 6.5 Experiment Versioning
-
-A change in an experiment's parameters should produce a new configuration version.
-
-Example:
-
-```typescript
-interface ExperimentVersion {
-  id: string;
-  experimentId: string;
-  versionNumber: number;
-
-  configuration: Record<string, unknown>;
-
-  promptVersion?: string;
-
-  modelConfiguration?: {
-    provider: string;
-    model: string;
-    parameters: Record<string, unknown>;
-  };
-
-  createdAt: string;
-  createdBy: string;
-}
-```
-
-The system should not overwrite historical configurations.
-
-## 6.6 Experiment Comparison
-
-Users should be able to compare two or more executions.
-
-Comparison dimensions include:
-
-- Input parameters.
-- Prompt configuration.
-- Model selection.
-- Output quality.
-- Execution duration.
-- Resource consumption.
-- Evaluation scores.
-- Error frequency.
-
-A comparison should clearly distinguish measured values from subjective assessments.
-
-## 6.7 Reproducibility
-
-Every experiment execution should preserve sufficient metadata to support reconstruction.
-
-Recommended metadata:
-
-```json
-{
-  "executionId": "execution-example-001",
-  "experimentId": "experiment-example-001",
-  "version": 3,
-  "createdAt": "2026-10-31T12:00:00Z",
-  "configurationHash": "sha256-example",
-  "provider": "configured-provider",
-  "model": "configured-model",
-  "seed": null,
-  "status": "completed"
-}
-```
-
-A reproducibility record must also capture external dependencies that may change, such as provider model versions.
-
----
-
-# 7. PROJECT AND WORKSPACE MANAGEMENT
-
-## 7.1 Workspace Architecture
-
-A workspace represents a logical environment in which projects, experiments, assets, and collaborators are organized.
-
-A project belongs to a workspace.
-
-A workspace may contain multiple projects.
-
-```mermaid
-flowchart TD
-
-    U["User Account"]
-
-    W1["Workspace A"]
-    W2["Workspace B"]
-
-    P1["Project 1"]
-    P2["Project 2"]
-    P3["Project 3"]
-
-    E1["Experiments"]
-    E2["Experiments"]
-    E3["Experiments"]
-
-    U --> W1
-    U --> W2
-
-    W1 --> P1
-    W1 --> P2
-    W2 --> P3
-
-    P1 --> E1
-    P2 --> E2
-    P3 --> E3
-```
-
-## 7.2 Project Metadata
-
-A project should contain:
-
-| Field | Description |
-|---|---|
-| Project ID | Unique identifier |
-| Workspace ID | Parent workspace |
-| Name | Project title |
-| Description | Project objective |
-| Category | Project classification |
-| Status | Current lifecycle status |
-| Owner | Project creator |
-| Tags | Searchable labels |
-| Created At | Creation timestamp |
-| Updated At | Last modification |
-
-## 7.3 Workspace Roles
-
-A role-based access model can support:
-
-- Owner.
-- Administrator.
-- Editor.
-- Contributor.
-- Viewer.
-
-Permissions should be verified on the backend for each protected resource.
-
-Hiding an interface button is not an authorization mechanism.
-
-## 7.4 Project Activity History
-
-The activity system should capture significant events.
-
-Examples:
-
-- Project created.
-- Experiment launched.
-- Prompt updated.
-- Asset uploaded.
-- Experiment completed.
-- Evaluation recorded.
-- Project archived.
-- Member invited.
-
-Activity records should include actor, event type, timestamp, and relevant resource references.
-
-## 7.5 Search and Discovery
-
-Project search should eventually support:
-
-- Project title search.
-- Description search.
-- Tag filtering.
-- Experiment search.
-- Asset metadata search.
-- Semantic search when configured.
-
-Search results must respect workspace access permissions.
-
----
-
-# 8. PROMPT ENGINEERING & INTELLIGENCE MANAGEMENT
-
-## 8.1 Prompt Management
-
-Prompts are part of the application's core intellectual infrastructure.
-
-Rather than storing prompts as unstructured strings throughout the codebase, the platform should use a managed prompt registry.
-
-## 8.2 Prompt Lifecycle
-
-```mermaid
-flowchart TD
-    A["Create Prompt"] --> B["Define Purpose"]
-    B --> C["Define Variables"]
-    C --> D["Validate Template"]
-    D --> E["Save Version"]
-    E --> F["Run Experiment"]
-    F --> G["Evaluate Output"]
-    G --> H{"Meets Requirements?"}
-    H -->|Yes| I["Mark Approved"]
-    H -->|No| J["Revise Prompt"]
-    J --> E
-```
-
-## 8.3 Prompt Structure
-
-Example:
-
-```typescript
-interface PromptTemplate {
-  id: string;
-
-  name: string;
-
-  description: string;
-
-  version: number;
-
-  systemInstruction: string;
-
-  userTemplate: string;
-
-  variables: PromptVariable[];
-
-  category: string;
-
-  createdAt: string;
-}
-
-interface PromptVariable {
-  name: string;
-
-  type:
-    | "string"
-    | "number"
-    | "boolean"
-    | "json";
-
-  required: boolean;
-
-  description: string;
-
-  defaultValue?: unknown;
-}
-```
-
-## 8.4 Prompt Example
-
-```text
-SYSTEM:
-You are an experimental ideation assistant.
-
-Your role is to help explore a concept through
-structured reasoning and alternative approaches.
-
-USER:
-Project: {{project_name}}
-
-Objective:
-{{objective}}
-
-Constraints:
-{{constraints}}
-
-Deliverables:
-{{deliverables}}
-
-Return:
-1. Summary
-2. Key assumptions
-3. Alternative approaches
-4. Potential limitations
-5. Suggested next experiment
-```
-
-## 8.5 Prompt Version Control
-
-Each revision should preserve:
-
-- Prompt identifier.
-- Version number.
-- Template content.
-- Change description.
-- Creator.
-- Timestamp.
-- Associated experiments.
-
-This enables comparisons between prompt revisions.
-
-## 8.6 Prompt Evaluation
-
-Prompt evaluation can include:
-
-| Metric | Description |
-|---|---|
-| Relevance | Alignment with the intended objective |
-| Completeness | Coverage of requested elements |
-| Consistency | Stability across repeated trials |
-| Format Compliance | Conformance with output schemas |
-| Accuracy | Agreement with verifiable references |
-| Latency | Response duration |
-| Token Usage | Input and output consumption |
-
-An automated evaluator should not be treated as definitive proof of factual correctness.
-
----
-
-# 9. DATA ARCHITECTURE & KNOWLEDGE MANAGEMENT
-
-## 9.1 Data Architecture
-
-A logical data architecture separates structured records from files and semantic indexes.
-
-```mermaid
-flowchart TB
-
-    APP["Application Services"]
-
-    subgraph DATA["PERSISTENCE"]
-        SQL[("Relational Database")]
-        OBJ[("Object Storage")]
-        CACHE[("Cache")]
-        VECTOR[("Vector Index")]
-    end
-
-    APP --> SQL
-    APP --> OBJ
-    APP --> CACHE
-    APP --> VECTOR
-
-    SQL --> META["Metadata and Relationships"]
-    OBJ --> FILES["Documents and Media"]
-    CACHE --> TEMP["Temporary Results"]
-    VECTOR --> SEM["Semantic Retrieval"]
-```
-
-The actual infrastructure should be selected according to repository requirements.
-
-## 9.2 Conceptual Database Schema
-
-```mermaid
-erDiagram
-
-    USER ||--o{ WORKSPACE_MEMBER : belongs_to
-    WORKSPACE ||--o{ WORKSPACE_MEMBER : contains
-    WORKSPACE ||--o{ PROJECT : owns
-    PROJECT ||--o{ EXPERIMENT : contains
-    EXPERIMENT ||--o{ EXPERIMENT_VERSION : versions
-    EXPERIMENT ||--o{ EXECUTION : executes
-    EXECUTION ||--o{ ARTIFACT : generates
-    EXECUTION ||--o{ EVALUATION : evaluated_by
-    PROJECT ||--o{ PROMPT_TEMPLATE : uses
-    PROMPT_TEMPLATE ||--o{ PROMPT_VERSION : versions
-    PROJECT ||--o{ ASSET : contains
-
-    USER {
-        uuid id PK
-        string email
-        timestamp created_at
-    }
-
-    WORKSPACE {
-        uuid id PK
-        string name
-        timestamp created_at
-    }
-
-    PROJECT {
-        uuid id PK
-        uuid workspace_id FK
-        string name
-        string description
-        string status
-    }
-
-    EXPERIMENT {
-        uuid id PK
-        uuid project_id FK
-        string name
-        string status
-    }
-
-    EXECUTION {
-        uuid id PK
-        uuid experiment_id FK
-        string status
-        timestamp started_at
-        timestamp completed_at
-    }
-
-    ARTIFACT {
-        uuid id PK
-        uuid execution_id FK
-        string storage_key
-        string media_type
-    }
-
-    EVALUATION {
-        uuid id PK
-        uuid execution_id FK
-        float score
-        json details
-    }
-```
-
-This diagram describes the intended relationship model, not an inspected production database.
-
-## 9.3 Knowledge Management
-
-A project knowledge layer can preserve information across experiments.
-
-Potential data sources:
-
-- Project descriptions.
-- Uploaded documents.
-- Experiment configurations.
-- Historical outputs.
-- Technical notes.
-- Prompt templates.
-- Evaluation results.
-- Reference materials.
-
-## 9.4 Semantic Retrieval
-
-Where a vector database or embedding service is available, semantic retrieval can improve contextual discovery.
-
-Conceptual pipeline:
-
-```mermaid
-flowchart LR
-
-    A["Document"] --> B["Extraction"]
-    B --> C["Normalization"]
-    C --> D["Chunking"]
-    D --> E["Embedding"]
-    E --> F["Vector Index"]
-
-    G["User Question"] --> H["Query Embedding"]
-    H --> I["Similarity Search"]
-    F --> I
-    I --> J["Retrieve Relevant Context"]
-    J --> K["AI Response"]
-```
-
-## 9.5 Document Chunking
-
-A document-processing component should:
-
-1. Validate the incoming file.
-2. Identify the document type.
-3. Extract supported content.
-4. Normalize text.
-5. Divide content into meaningful sections.
-6. Preserve page and section metadata.
-7. Create embeddings when enabled.
-8. Store source references.
-9. Make the indexed content searchable.
-
-Chunk boundaries should avoid unnecessary fragmentation of meaningful passages.
-
-## 9.6 Data Provenance
-
-Every generated output should retain information about its sources.
-
-An artifact may reference:
-
-- Original uploaded files.
-- Prompt versions.
-- Model configuration.
-- Experiment identifiers.
-- Execution identifiers.
-- Human modifications.
-
-This creates a traceable relationship between an idea and the final output.
-
----
-
-# 10. MULTIMODAL AI PROCESSING
-
-## 10.1 Overview
-
-WooHoo Wonder Labs is designed to accommodate different forms of input and output.
-
-Multimodal capability should be implemented through a dedicated processing layer rather than assuming every model can process every media format.
-
-## 10.2 Supported Media Categories
-
-| Modality | Potential Processing |
-|---|---|
-| Text | Classification and generation |
-| Images | Visual description and analysis |
-| Audio | Transcription and sound processing |
-| Video | Frame extraction and summarization |
-| Documents | Text and structured data extraction |
-| Structured Data | Statistical and computational processing |
-
-The actual supported formats depend on the configured providers and application implementation.
-
-## 10.3 Multimodal Architecture
-
-```mermaid
-flowchart TD
-
-    INPUT["User Input"]
-
-    TEXT["Text Processor"]
-    IMAGE["Image Processor"]
-    AUDIO["Audio Processor"]
-    VIDEO["Video Processor"]
-    DOC["Document Processor"]
-
-    NORMALIZE["Normalized Input Representation"]
-
-    ROUTER["AI Capability Router"]
-
-    RESULT["Structured Output"]
-
-    INPUT --> TEXT
-    INPUT --> IMAGE
-    INPUT --> AUDIO
-    INPUT --> VIDEO
-    INPUT --> DOC
-
-    TEXT --> NORMALIZE
-    IMAGE --> NORMALIZE
-    AUDIO --> NORMALIZE
-    VIDEO --> NORMALIZE
-    DOC --> NORMALIZE
-
-    NORMALIZE --> ROUTER
-    ROUTER --> RESULT
-```
-
-## 10.4 Image Processing Pipeline
-
-A proposed image-processing service:
-
-```typescript
-interface ImageProcessingRequest {
-  assetId: string;
-
-  operation:
-    | "describe"
-    | "classify"
-    | "compare"
-    | "extract";
-
-  instructions?: string;
-
-  metadata?: Record<string, unknown>;
-}
-
-interface ImageProcessingResult {
-  assetId: string;
-
-  description?: string;
-
-  labels?: string[];
-
-  extractedData?: Record<string, unknown>;
-
-  provider?: string;
-
-  model?: string;
-}
-```
-
-Processing should include file validation, image metadata extraction, appropriate resizing, and privacy controls.
-
-## 10.5 Audio Processing Pipeline
-
-Possible audio functionality:
-
-- Speech transcription.
-- Speaker-independent content organization.
-- Audio summarization.
-- Speech-to-text conversion.
-- Structured transcript export.
-
-The application must make clear when audio is transmitted to an external provider.
-
-## 10.6 Video Processing Pipeline
-
-Video processing may use:
-
-1. Video metadata extraction.
-2. Frame selection.
-3. Frame preprocessing.
-4. Scene organization.
-5. Supported visual analysis.
-6. Timestamp preservation.
-7. Output summarization.
-
-Video processing must enforce duration, size, and resource limits.
-
-## 10.7 Multimodal Result Normalization
-
-Regardless of input type, the application should return a consistent result structure.
-
-```typescript
-interface ProcessingResult {
-  id: string;
-
-  sourceAssetId: string;
-
-  modality: string;
-
-  status: "completed" | "failed";
-
-  content: unknown;
-
-  metadata: {
-    provider?: string;
-    model?: string;
-    durationMs?: number;
-  };
-
-  createdAt: string;
-}
-```
-
-This standardization makes it easier for other services to consume processing outputs.
-
----
-
-# 11. WORKFLOW AUTOMATION ENGINE
-
-## 11.1 Workflow Architecture
-
-The workflow engine connects individual operations into repeatable processes.
-
-An experiment may consist of several independent or sequential tasks.
-
-A workflow should have explicit inputs, outputs, dependencies, and failure behavior.
-
-## 11.2 Workflow Components
-
-- Trigger.
-- Input validation.
-- Task execution.
-- Conditional branching.
-- Data transformation.
-- AI operation.
-- Human review.
-- Output storage.
-- Completion event.
-
-## 11.3 Workflow Diagram
-
-```mermaid
-flowchart TD
-
-    START["Workflow Trigger"]
-
-    VALIDATE["Validate Input"]
-
-    PLAN["Build Execution Plan"]
-
-    TASK1["Research Task"]
-
-    TASK2["AI Generation Task"]
-
-    TASK3["Validation Task"]
-
-    REVIEW{"Human Review"}
-
-    SAVE["Save Results"]
-
-    COMPLETE["Workflow Complete"]
-
-    START --> VALIDATE
-    VALIDATE --> PLAN
-    PLAN --> TASK1
-    TASK1 --> TASK2
-    TASK2 --> TASK3
-    TASK3 --> REVIEW
-
-    REVIEW -->|Approved| SAVE
-    REVIEW -->|Revision Requested| TASK2
-
-    SAVE --> COMPLETE
-```
-
-## 11.4 Workflow Definition
-
-Example YAML:
-
-```yaml
-workflow:
-  id: idea-exploration
-  name: Idea Exploration
-
-  version: 1
-
-  inputs:
-    - name: concept
-      type: string
-      required: true
-
-    - name: objective
-      type: string
-      required: true
-
-  steps:
-
-    - id: analyze
-      type: ai
-      task: analyze-concept
-
-    - id: explore
-      type: ai
-      task: generate-alternatives
-      depends_on:
-        - analyze
-
-    - id: validate
-      type: validation
-      depends_on:
-        - explore
-
-    - id: save
-      type: artifact
-      depends_on:
-        - validate
-
-  execution:
-    max_duration_seconds: 300
-    allow_cancellation: true
-```
-
-This is an illustrative workflow configuration.
-
-## 11.5 Workflow State Management
-
-Each execution should have a durable state.
-
-Suggested states:
-
-- Created.
-- Validating.
-- Queued.
-- Running.
-- Waiting for review.
-- Completed.
-- Failed.
-- Cancelled.
-
-Workflow state changes should be validated by the backend.
-
-## 11.6 Retry Strategy
-
-A retry should distinguish between temporary failures and permanent errors.
-
-Potential retryable conditions include:
-
-- Temporary network failures.
-- Provider rate limits.
-- Temporary service unavailability.
-
-Permanent errors may include:
-
-- Invalid input.
-- Unsupported file format.
-- Invalid authentication.
-- Schema validation failure.
-
-The retry mechanism should use bounded exponential backoff and preserve execution identifiers.
-
----
-
-# 12. BACKEND ARCHITECTURE & APIs
-
-## 12.1 API Design
-
-The API should provide a consistent interface between the frontend, application services, and AI execution infrastructure.
-
-Recommended design characteristics:
-
-- Resource-oriented endpoints.
-- Versioned API paths.
-- Consistent JSON responses.
-- Schema validation.
-- Authentication.
-- Authorization.
-- Pagination.
-- Request correlation IDs.
-- Structured error handling.
-
-## 12.2 Example API Structure
-
-The following endpoints define a proposed API contract.
-
-| Method | Endpoint | Purpose |
-|---|---|---|
-| GET | `/api/v1/health` | Service health |
-| GET | `/api/v1/projects` | List projects |
-| POST | `/api/v1/projects` | Create project |
-| GET | `/api/v1/projects/:id` | Retrieve project |
-| PATCH | `/api/v1/projects/:id` | Update project |
-| DELETE | `/api/v1/projects/:id` | Delete project |
-| GET | `/api/v1/experiments` | List experiments |
-| POST | `/api/v1/experiments` | Create experiment |
-| POST | `/api/v1/experiments/:id/run` | Execute experiment |
-| GET | `/api/v1/executions/:id` | Inspect execution |
-| POST | `/api/v1/ai/generate` | Request AI output |
-| GET | `/api/v1/prompts` | List prompt templates |
-| POST | `/api/v1/prompts` | Create prompt template |
-| POST | `/api/v1/assets` | Upload asset |
-| GET | `/api/v1/evaluations/:id` | Retrieve evaluation |
-
-These routes should be reconciled with the real backend before being advertised as implemented.
-
-## 12.3 API Request Example
-
-```http
-POST /api/v1/experiments
-Content-Type: application/json
-Authorization: Bearer <ACCESS_TOKEN>
-```
-
-Request:
-
-```json
-{
-  "projectId": "project-example",
-  "name": "Creative Exploration",
-  "description": "Explore alternative product concepts.",
-  "category": "ideation",
-  "configuration": {
-    "outputCount": 5,
-    "format": "structured"
-  }
-}
-```
-
-Illustrative response:
-
-```json
-{
-  "success": true,
-  "data": {
-    "id": "experiment-example",
-    "status": "draft",
-    "name": "Creative Exploration"
-  }
-}
-```
-
-## 12.4 Execution API
-
-An execution request should return a durable execution identifier.
-
-```http
-POST /api/v1/experiments/experiment-example/run
-```
-
-Illustrative response:
-
-```json
-{
-  "success": true,
-  "data": {
-    "executionId": "execution-example",
-    "status": "queued"
-  }
-}
-```
-
-The client can subsequently retrieve execution status.
-
-```http
-GET /api/v1/executions/execution-example
-```
-
-## 12.5 Standard Error Format
-
-```json
-{
-  "success": false,
-  "error": {
-    "code": "VALIDATION_ERROR",
-    "message": "The supplied experiment configuration is invalid.",
-    "requestId": "request-example",
-    "details": []
-  }
-}
-```
-
-Do not expose credentials, internal stack traces, or sensitive provider responses in client-facing error messages.
-
-## 12.6 API Sequence Diagram
-
-```mermaid
-sequenceDiagram
-
-    actor User
-    participant UI as Frontend
-    participant API as Backend API
-    participant DB as Database
-    participant Queue as Job Queue
-    participant AI as AI Engine
-
-    User->>UI: Submit experiment
-    UI->>API: POST /experiments
-    API->>DB: Save configuration
-    DB-->>API: Experiment ID
-
-    API-->>UI: Experiment created
-
-    UI->>API: POST /experiments/:id/run
-    API->>Queue: Enqueue execution
-    Queue-->>API: Job ID
-
-    API-->>UI: Execution queued
-
-    Queue->>AI: Process experiment
-    AI->>DB: Save execution metadata
-    AI-->>Queue: Execution result
-
-    UI->>API: GET /executions/:id
-    API->>DB: Retrieve status
-    DB-->>API: Execution details
-    API-->>UI: Return result
-
-    UI-->>User: Display experiment
-```
-
----
-
-# 13. FRONTEND ARCHITECTURE & EXPERIENCE
-
-## 13.1 Interface Philosophy
-
-The frontend should make advanced experimentation understandable without exposing unnecessary implementation complexity.
-
-The interface should prioritize:
-
-- Clear navigation.
-- Responsive layouts.
-- Accessible interactions.
-- Visual hierarchy.
-- Understandable execution states.
-- Useful empty states.
-- Immediate feedback.
-- Consistent design components.
-
-## 13.2 Suggested Navigation
-
-```text
-WooHoo Wonder Labs
-│
-├── Dashboard
-│
-├── Wonder Studio
-│   ├── New Experiment
-│   ├── Explore Ideas
-│   ├── AI Workspace
-│   └── Recent Experiments
-│
-├── Projects
-│   ├── All Projects
-│   ├── Active Projects
-│   └── Archived Projects
-│
-├── AI Intelligence
-│   ├── Model Configuration
-│   ├── Prompt Library
-│   ├── Agent Workspace
-│   └── AI History
-│
-├── Knowledge Library
-│   ├── Documents
-│   ├── Assets
-│   └── Saved Results
-│
-├── Workflows
-│
-├── Analytics
-│
-└── Settings
-    ├── Profile
-    ├── Workspace
-    ├── Security
-    └── Integrations
-```
-
-## 13.3 Dashboard Architecture
-
-The dashboard should provide a high-level overview of current activity.
-
-Recommended components:
-
-**Welcome Panel**
-
-A contextual starting point for new experiments.
-
-**Project Overview**
-
-Active and recently modified projects.
-
-**Recent Experiments**
-
-The latest experiment runs and their statuses.
-
-**AI Activity**
-
-A summary of recent AI executions and usage.
-
-**Workflow Activity**
-
-Running, completed, and failed workflows.
-
-**Knowledge Library**
-
-Quick access to saved research and artifacts.
-
-## 13.4 Wonder Studio
-
-The central experimentation interface should support:
-
-- Experiment title.
-- Objective.
-- Category.
-- Input editor.
-- Configuration panel.
-- AI provider selection.
-- Prompt selection.
-- Execution controls.
-- Output viewer.
-- Comparison mode.
-- Save and version controls.
-
-## 13.5 UI State Management
-
-Frontend state should distinguish between:
-
-**Local interface state**
-
-Open panels, active tabs, dialog visibility, and editor state.
-
-**Server state**
-
-Projects, experiment records, execution statuses, and stored assets.
-
-**Persistent configuration state**
-
-User settings, saved preferences, and workspace configuration.
-
-Avoid treating transient component state as durable application data.
-
-## 13.6 Component Structure
-
-Example:
-
-```text
-components/
-│
-├── layout/
-│   ├── AppShell
-│   ├── Sidebar
-│   ├── Header
-│   └── Navigation
-│
-├── dashboard/
-│   ├── WelcomePanel
-│   ├── ProjectOverview
-│   ├── ActivityFeed
-│   └── UsageOverview
-│
-├── experiments/
-│   ├── ExperimentEditor
-│   ├── ExperimentConfig
-│   ├── ExperimentStatus
-│   ├── ExperimentResults
-│   └── ExperimentComparison
-│
-├── ai/
-│   ├── ModelSelector
-│   ├── PromptEditor
-│   ├── AgentPanel
-│   └── GenerationResult
-│
-└── shared/
-    ├── Button
-    ├── Modal
-    ├── Input
-    ├── Card
-    └── EmptyState
-```
-
-## 13.7 Interaction Design
-
-The interface should provide feedback for every meaningful operation.
-
-Examples:
-
-- Saving a project.
-- Starting an experiment.
-- Uploading an asset.
-- Switching models.
-- Editing a prompt.
-- Cancelling execution.
-- Viewing an evaluation.
-- Retrying a failed operation.
-
-Long-running AI operations should display their status without requiring the user to keep the screen active.
-
----
-
-# 14. EXPERIMENT EVALUATION & BENCHMARKING
-
-## 14.1 Evaluation Philosophy
-
-An experimentation platform should distinguish between producing an output and establishing whether that output is useful.
-
-The Evaluation Engine provides mechanisms for examining the quality and performance of experimental outputs.
-
-## 14.2 Evaluation Dimensions
-
-| Dimension | Purpose |
-|---|---|
-| Relevance | Does the output address the objective? |
-| Accuracy | Is the output factually supported? |
-| Completeness | Are requested elements present? |
-| Consistency | Are results sufficiently stable? |
-| Format | Does the output follow the required schema? |
-| Performance | How long did execution take? |
-| Cost | What resources were consumed? |
-| Reproducibility | Can the execution be reconstructed? |
-
-## 14.3 Evaluation Pipeline
-
-```mermaid
-flowchart TD
-
-    A["Experiment Output"] --> B["Schema Validation"]
-
-    B --> C["Completeness Checks"]
-
-    C --> D["Quality Evaluation"]
-
-    D --> E["Performance Analysis"]
-
-    E --> F["Compare Baseline"]
-
-    F --> G["Generate Evaluation Record"]
-
-    G --> H["Display Results"]
-
-    H --> I["Human Review"]
-```
-
-## 14.4 Evaluation Record
-
-```typescript
-interface EvaluationRecord {
-  id: string;
-
-  executionId: string;
-
-  evaluator: string;
-
-  metrics: {
-    relevance?: number;
-    completeness?: number;
-    formatCompliance?: number;
-    consistency?: number;
-  };
-
-  warnings: string[];
-
-  findings: string[];
-
-  humanReviewed: boolean;
-
-  createdAt: string;
-}
-```
-
-Scoring scales should be explicitly documented.
-
-For example, if normalized to zero through one, a score of `0.85` means 85% of the defined scoring scale, not necessarily 85% factual accuracy.
-
-## 14.5 Model Benchmarking
-
-The platform may support controlled comparisons between model configurations.
-
-A benchmark should preserve:
-
-- Dataset or test case version.
-- Prompt version.
-- Model identifier.
-- Provider.
-- Model parameters.
-- Evaluation method.
-- Execution time.
-- Token usage.
-- Output references.
-
-## 14.6 A/B Experimentation
-
-```mermaid
-flowchart TD
-
-    A["Benchmark Definition"] --> B["Shared Input Dataset"]
-
-    B --> C["Configuration A"]
-    B --> D["Configuration B"]
-
-    C --> E["Run A"]
-    D --> F["Run B"]
-
-    E --> G["Collect Metrics"]
-    F --> H["Collect Metrics"]
-
-    G --> I["Compare Results"]
-    H --> I
-
-    I --> J["Review Tradeoffs"]
-    J --> K["Select Configuration"]
-```
-
-Comparisons should use equivalent input conditions whenever possible.
-
-## 14.7 Evaluation Limitations
-
-Automated evaluations can be affected by evaluator bias, model changes, inconsistent data, and ambiguous scoring criteria.
-
-Evaluation results should therefore include their methodology and limitations.
-
-Human review remains important for consequential or subjective outputs.
-
----
-
-# 15. SECURITY, PRIVACY & GOVERNANCE
-
-## 15.1 Security Architecture
-
-Security should be incorporated throughout the application rather than implemented as a separate feature.
-
-Primary protection areas:
-
-- Authentication.
-- Authorization.
-- Data isolation.
-- Secrets management.
-- Input validation.
-- File processing.
-- API protection.
-- Logging.
-- AI provider security.
-- Auditability.
-
-## 15.2 Authentication
-
-The authentication system should support secure user sessions and account recovery.
-
-Recommended controls include:
-
-- Secure password handling where passwords are supported.
-- Session expiration.
-- Secure cookies where applicable.
-- Account verification.
-- Rate limiting.
-- Multi-factor authentication where appropriate.
-- Session revocation.
-
-## 15.3 Authorization
-
-Every protected request should verify:
-
-1. The user is authenticated.
-2. The requested resource exists.
-3. The resource belongs to an accessible workspace.
-4. The user has the necessary permission.
-5. The requested action is allowed.
-
-## 15.4 API Key Management
-
-External AI credentials must never be embedded in client-side application code.
-
-Recommended design:
-
-```mermaid
-flowchart LR
-
-    CLIENT["Client Application"]
-
-    API["Backend API"]
-
-    VAULT[("Secret Store")]
-
-    AI["External AI Provider"]
-
-    CLIENT -->|"Authenticated Request"| API
-
-    API -->|"Retrieve Authorized Secret"| VAULT
-
-    VAULT -->|"Credential"| API
-
-    API -->|"Server-side API Request"| AI
-
-    AI -->|"Response"| API
-
-    API -->|"Normalized Output"| CLIENT
-```
-
-Secrets should be:
-
-- Stored outside source control.
-- Encrypted at rest.
-- Restricted by access policy.
-- Rotated as necessary.
-- Removed when no longer needed.
-- Excluded from logs.
-
-## 15.5 Data Privacy
-
-The platform should provide clear information about:
-
-- What information is collected.
-- Why information is collected.
-- Where files are stored.
-- Which third parties process requests.
-- How long information is retained.
-- How information can be deleted.
-- Whether data may be used for model improvement.
-
-## 15.6 File Upload Security
-
-File processing should include:
-
-- File size restrictions.
-- Content-type validation.
-- File signature verification.
-- Safe object storage.
-- Malware scanning where supported.
-- Processing time limits.
-- Restricted file parsing.
-- Controlled download access.
-
-## 15.7 AI-Specific Security
-
-AI systems introduce additional risks.
-
-The architecture should address:
-
-**Prompt injection**
-
-Treat externally supplied documents and retrieved passages as untrusted data.
-
-**Unauthorized tool execution**
-
-Restrict available tools through explicit permission policies.
-
-**Sensitive data disclosure**
-
-Avoid sending unnecessary personal or confidential information to external providers.
-
-**Unsafe output handling**
-
-Validate generated structured content before processing or displaying it.
-
-**Unbounded resource consumption**
-
-Enforce token, request, and execution budgets.
-
-**Model hallucinations**
-
-Clearly communicate uncertainty and distinguish generated suggestions from verified facts.
-
-## 15.8 Audit Logging
-
-Significant operations should produce audit events.
-
-Example:
-
-```typescript
-interface AuditEvent {
-  id: string;
-
-  actorId: string;
-
-  workspaceId: string;
-
-  action: string;
-
-  resourceType: string;
-
-  resourceId: string;
-
-  timestamp: string;
-
-  requestId?: string;
-
-  metadata?: Record<string, unknown>;
-}
-```
-
-Sensitive values, secrets, and unnecessary personal information must not be written to audit logs.
-
----
-
-# 16. PERFORMANCE, SCALABILITY & RELIABILITY
-
-## 16.1 Scalability Principles
-
-The platform should separate interactive requests from long-running AI execution.
-
-This allows ordinary application requests to remain responsive while computational workloads execute through background workers.
-
-## 16.2 Execution Queue
-
-```mermaid
-flowchart TD
-
-    API["API Gateway"]
-
-    Q[("Execution Queue")]
-
-    W1["Worker 1"]
-    W2["Worker 2"]
-    W3["Worker 3"]
-
-    DB[("Execution Database")]
-
-    PROVIDER["AI Provider"]
-
-    API --> Q
-
-    Q --> W1
-    Q --> W2
-    Q --> W3
-
-    W1 --> PROVIDER
-    W2 --> PROVIDER
-    W3 --> PROVIDER
-
-    W1 --> DB
-    W2 --> DB
-    W3 --> DB
-```
-
-Worker concurrency should be configured according to provider limits, system capacity, and resource budgets.
-
-## 16.3 Caching
-
-Potential caching targets:
-
-- Project metadata.
-- Model capability metadata.
-- Public configuration.
-- Prompt templates.
-- Repeated deterministic operations.
-
-Personal information and sensitive experiment outputs should not be cached without appropriate isolation and expiration policies.
-
-## 16.4 Database Optimization
-
-Recommended practices:
-
-- Index frequently queried columns.
-- Use pagination.
-- Avoid unnecessary full-table scans.
-- Separate large media from relational records.
-- Monitor query duration.
-- Use database transactions for related state changes.
-- Review query plans.
-- Establish retention policies.
-
-## 16.5 Reliability
-
-Important reliability mechanisms:
-
-- Health checks.
-- Service readiness checks.
-- Request timeouts.
-- Bounded retries.
-- Circuit breakers.
-- Dead-letter handling.
-- Execution cancellation.
-- Database backups.
-- Graceful shutdown.
-- Error monitoring.
-
-## 16.6 Observability Architecture
-
-```mermaid
-flowchart TB
-
-    APP["Application Services"]
-
-    LOG["Structured Logs"]
-    METRICS["Metrics"]
-    TRACE["Distributed Traces"]
-
-    COLLECT["Observability Collector"]
-
-    DASH["Monitoring Dashboard"]
-
-    ALERT["Alerting System"]
-
-    APP --> LOG
-    APP --> METRICS
-    APP --> TRACE
-
-    LOG --> COLLECT
-    METRICS --> COLLECT
-    TRACE --> COLLECT
-
-    COLLECT --> DASH
-    COLLECT --> ALERT
-```
-
-## 16.7 Operational Metrics
-
-Suggested operational measurements:
-
-| Metric | Description |
-|---|---|
-| API Latency | API request duration |
-| Execution Latency | Experiment processing duration |
-| Queue Depth | Pending execution count |
-| Error Rate | Percentage of failed requests |
-| Provider Availability | Availability of configured providers |
-| Token Usage | Model consumption |
-| Worker Utilization | Worker capacity consumption |
-| Database Latency | Query response times |
-| Cache Hit Rate | Cache effectiveness |
-
-Targets should be set using actual deployment data rather than invented performance claims.
-
----
-
-# 17. TESTING & QUALITY ENGINEERING
-
-## 17.1 Testing Philosophy
-
-Testing should verify application behavior across the frontend, backend, AI integrations, and execution pipeline.
-
-The test strategy should distinguish deterministic software tests from probabilistic AI evaluations.
-
-## 17.2 Testing Pyramid
-
-```mermaid
-flowchart TB
-
-    E2E["End-to-End Tests"]
-
-    INTEGRATION["Integration Tests"]
-
-    UNIT["Unit Tests"]
-
-    STATIC["Static Analysis and Type Checking"]
-
-    STATIC --> UNIT
-    UNIT --> INTEGRATION
-    INTEGRATION --> E2E
-```
-
-## 17.3 Unit Tests
-
-Test isolated business logic.
-
-Examples:
-
-- Experiment configuration validation.
-- Prompt variable substitution.
-- Workspace permission evaluation.
-- Model routing selection.
-- Output schema validation.
-- Workflow state transitions.
-- Retry policy behavior.
-
-## 17.4 Integration Tests
-
-Test the interaction between:
-
-- API and database.
-- API and queue.
-- Worker and AI provider adapter.
-- Asset service and object storage.
-- Evaluation service and execution records.
-- Authentication and access control.
-
-External providers should generally be mocked in ordinary automated test suites.
-
-## 17.5 End-to-End Tests
-
-Representative user journeys:
-
-1. Create an account.
-2. Create a workspace.
-3. Create a project.
-4. Start an experiment.
-5. Configure an AI request.
-6. Execute the experiment.
-7. View its output.
-8. Evaluate the result.
-9. Save the experiment.
-10. Retrieve it from experiment history.
-
-## 17.6 AI Evaluation Testing
-
-AI evaluations should use versioned test cases.
-
-Example:
-
-```json
-{
-  "testCase": "structured-output-001",
-  "input": {
-    "objective": "Generate five alternative concepts."
-  },
-  "expected": {
-    "minimumItems": 5,
-    "requiredFields": [
-      "title",
-      "description",
-      "rationale"
-    ]
-  }
-}
-```
-
-Test checks should focus on measurable conditions whenever possible.
-
-## 17.7 Regression Testing
-
-When model configurations, prompts, or processing logic change, previously evaluated test cases should be rerun.
-
-This helps identify unintended performance changes.
-
-## 17.8 Quality Gates
-
-A proposed CI quality gate:
-
-- Code formatting.
-- Static analysis.
-- Type checking.
-- Unit tests.
-- Integration tests.
-- Dependency vulnerability checks.
-- Security checks.
-- Build verification.
-
-Deployment should be blocked when mandatory quality gates fail.
-
----
-
-# 18. DEPLOYMENT & DEVOPS
-
-## 18.1 Deployment Architecture
-
-WooHoo Wonder Labs can be deployed using a modular application infrastructure.
-
-```mermaid
-flowchart TB
-
-    USER["Users"]
-
-    CDN["CDN / Edge"]
-
-    FRONT["Frontend Application"]
-
-    GATEWAY["Application API"]
-
-    SERVICES["Backend Services"]
-
-    QUEUE[("Job Queue")]
-
-    WORKERS["Background Workers"]
-
-    DATABASE[("Database")]
-
-    STORAGE[("Object Storage")]
-
-    AI["AI Providers"]
-
-    USER --> CDN
-    CDN --> FRONT
-    FRONT --> GATEWAY
-    GATEWAY --> SERVICES
-
-    SERVICES --> DATABASE
-    SERVICES --> STORAGE
-    SERVICES --> QUEUE
-
-    QUEUE --> WORKERS
-    WORKERS --> AI
-    WORKERS --> DATABASE
-```
-
-## 18.2 Environment Strategy
-
-Maintain separate environments.
-
-| Environment | Purpose |
-|---|---|
-| Local | Development |
-| Test | Automated testing |
-| Staging | Pre-production verification |
-| Production | Live application |
-
-Environment credentials should be isolated.
-
-## 18.3 Environment Configuration
-
-The following is an illustrative configuration template. Adapt variable names to the actual implementation.
-
-```dotenv
-# Application
-APP_ENV=development
-APP_PORT=3000
-APP_BASE_URL=http://localhost:3000
-
-# API
-API_BASE_URL=http://localhost:8000
-API_VERSION=v1
-
-# Database
-DATABASE_URL=
-
-# Cache
-CACHE_URL=
-
-# Queue
-QUEUE_URL=
-
-# AI
-DEFAULT_AI_PROVIDER=
-DEFAULT_AI_MODEL=
-
-# Secrets
-AI_PROVIDER_API_KEY=
-
-# Storage
-STORAGE_ENDPOINT=
-STORAGE_BUCKET=
-
-# Security
-SESSION_SECRET=
-ENCRYPTION_KEY=
-
-# Observability
-LOG_LEVEL=debug
-```
-
-Never commit real credentials.
-
-## 18.4 Docker
-
-A containerized setup can simplify local development and deployment.
-
-Illustrative commands, assuming a Docker Compose configuration exists:
-
-```bash
-# Build images
-docker compose build
-
-# Start services
-docker compose up -d
-
-# Inspect services
-docker compose ps
-
-# Review logs
-docker compose logs -f
-
-# Stop services
-docker compose down
-```
-
-## 18.5 Continuous Integration
-
-A proposed CI/CD process:
-
-```mermaid
-flowchart TD
-
-    A["Developer Push"]
-
-    B["Repository Checkout"]
-
-    C["Install Dependencies"]
-
-    D["Static Analysis"]
-
-    E["Unit Tests"]
-
-    F["Integration Tests"]
-
-    G["Build Artifacts"]
-
-    H["Security Checks"]
-
-    I["Deploy to Staging"]
-
-    J["Smoke Tests"]
-
-    K["Approved Production Deployment"]
-
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
-    G --> H
-    H --> I
-    I --> J
-    J --> K
-```
-
-## 18.6 Release Management
-
-Every release should document:
-
-- Version.
-- Date.
-- New functionality.
-- Bug fixes.
-- Breaking changes.
-- Database migrations.
-- Configuration changes.
-- Security updates.
-- Known issues.
-
-Database migrations should be version-controlled and tested before production deployment.
-
-## 18.7 Backup and Recovery
-
-A production deployment should define:
-
-- Backup frequency.
-- Backup retention.
-- Database restoration procedures.
-- Object storage recovery.
-- Recovery time objectives.
-- Recovery point objectives.
-- Incident communication procedures.
-
-Backups should be periodically tested, not merely assumed to work.
-
----
-
-# 19. BUSINESS MODEL & PRODUCT EXPANSION
-
-## 19.1 Product Positioning
-
-WooHoo Wonder Labs can be positioned as an AI experimentation and innovation workspace.
-
-Its value proposition is not simply access to another AI chatbot.
-
-The intended differentiation is the combination of:
-
-- Structured experimentation.
-- Multiple intelligence capabilities.
-- Reusable project knowledge.
-- Prompt version control.
-- AI-assisted workflows.
-- Experiment comparison.
-- Multimodal processing.
-- Persistent experiment histories.
-
-## 19.2 Potential User Segments
-
-**Individual creators**
-
-People exploring ideas and building personal projects.
-
-**Developers**
-
-People testing AI integrations, prompts, and prototypes.
-
-**Educators**
-
-People building interactive learning experiences.
-
-**Research-oriented users**
-
-People organizing computational or conceptual experiments.
-
-**Small teams**
-
-People collaborating on ideas and reusable workflows.
-
-## 19.3 Potential Monetization Models
-
-| Model | Description |
-|---|---|
-| Free Tier | Limited experimentation features |
-| Premium Subscription | More projects and advanced capabilities |
-| Usage-Based Billing | Metered AI execution |
-| Team Subscription | Shared workspaces and collaboration |
-| Enterprise Offering | Administrative and governance controls |
-| Educational Licensing | Classroom and institutional use |
-| API Access | Programmatic access to platform capabilities |
-
-These are business-model options, not existing pricing or revenue claims.
-
-## 19.4 Freemium Product Strategy
-
-The free experience should demonstrate the platform's core value.
-
-Possible free capabilities:
-
-- Personal workspace.
-- Basic experiment creation.
-- Limited AI execution.
-- Basic prompt library.
-- Saved experiment history.
-- Basic output export.
-
-Possible premium capabilities:
-
-- Higher usage limits.
-- Expanded project capacity.
-- Advanced model configurations.
-- Enhanced multimodal processing.
-- Advanced workflow automation.
-- Additional collaboration features.
-- Extended evaluation capabilities.
-
-## 19.5 Usage Accounting
-
-If monetization is implemented, the backend should track consumption independently of frontend counters.
-
-Possible usage dimensions:
-
-- Number of executions.
-- Input tokens.
-- Output tokens.
-- Storage consumption.
-- Processing time.
-- Workflow operations.
-- Subscription entitlement.
-
-Usage calculations should be auditable and connected to actual provider billing information.
-
-## 19.6 Product Analytics
-
-The product can measure:
-
-- Experiment creation rate.
-- Experiment completion rate.
-- Repeat experimentation.
-- Project retention.
-- Feature adoption.
-- Workflow completion.
-- Export activity.
-- Subscription conversion.
-
-Analytics should be privacy-conscious and avoid collecting unnecessary personal information.
-
-## 19.7 Expansion Opportunities
-
-Future product directions could include:
-
-**Wonder Academy**
-
-Interactive experimentation and educational experiences.
-
-**Wonder Research**
-
-A specialized environment for organizing research and computational investigations.
-
-**Wonder Create**
-
-Multimodal creative workflows and content exploration.
-
-**Wonder Build**
-
-AI-assisted software prototyping and project development.
-
-**Wonder Community**
-
-Sharing approved experiments, reusable templates, and educational projects.
-
-Each expansion should reuse common application services instead of duplicating the platform's foundational infrastructure.
-
----
-
-# 20. DEVELOPMENT ROADMAP & FUTURE RESEARCH
-
-## 20.1 Roadmap Philosophy
-
-The long-term development strategy should prioritize a stable foundational experience before introducing increasingly complex AI capabilities.
-
-The roadmap below describes proposed development priorities.
-
-It does not claim that individual milestones have already been completed.
-
-## 20.2 Phase One: Core Platform Foundation
-
-Primary objectives:
-
-- Establish application architecture.
-- Define shared data models.
-- Implement workspace and project organization.
-- Establish authentication and permissions.
-- Create experiment lifecycle management.
-- Implement basic prompt management.
-- Connect the initial AI provider.
-- Add execution history.
-- Establish logging and error handling.
-
-Expected outcome:
-
-A coherent environment for creating, executing, and saving structured experiments.
-
-## 20.3 Phase Two: Advanced AI Intelligence
-
-Primary objectives:
-
-- Expand provider abstraction.
-- Introduce model capability metadata.
-- Build routing policies.
-- Add prompt version comparison.
-- Implement structured outputs.
-- Add execution monitoring.
-- Establish evaluation records.
-- Improve failure handling.
-
-Expected outcome:
-
-A more flexible and measurable AI experimentation architecture.
-
-## 20.4 Phase Three: Multi-Agent Systems
-
-Primary objectives:
-
-- Introduce agent configuration.
-- Build centralized orchestration.
-- Add task delegation.
-- Implement durable execution state.
-- Introduce bounded tool access.
-- Add human review checkpoints.
-- Create agent execution histories.
-- Improve coordination observability.
-
-Expected outcome:
-
-A controlled agent environment for decomposing and organizing complex tasks.
-
-## 20.5 Phase Four: Multimodal Intelligence
-
-Primary objectives:
-
-- Image ingestion.
-- Document processing.
-- Audio processing.
-- Video metadata processing.
-- Multimodal result normalization.
-- Asset organization.
-- Source provenance.
-- Multimodal evaluation.
-
-Expected outcome:
-
-A platform able to organize and process different kinds of experimental inputs and outputs.
-
-## 20.6 Phase Five: Knowledge and Automation
-
-Primary objectives:
-
-- Semantic search.
-- Reusable project context.
-- Workflow templates.
-- Workflow state persistence.
-- Advanced execution queues.
-- Artifact lineage.
-- Experiment comparison.
-- Knowledge discovery.
-
-Expected outcome:
-
-A more interconnected workspace in which previous experiments can inform future work.
-
-## 20.7 Phase Six: Product Expansion
-
-Primary objectives:
-
-- Advanced collaboration.
-- Expanded workspace management.
-- Subscription entitlements if applicable.
-- Usage accounting.
-- Public project sharing with privacy controls.
-- Educational experiences.
-- Additional integrations.
-- Advanced analytics.
-
-Expected outcome:
-
-A product architecture capable of supporting additional user segments and business models.
-
-## 20.8 Future Technical Research
-
-Potential areas of investigation include:
-
-### Model Selection Optimization
-
-Investigate how task characteristics, evaluation evidence, provider reliability, and execution costs can inform model selection.
-
-### Improved Agent Coordination
-
-Study hierarchical task delegation, state sharing, dependency management, and bounded multi-agent execution.
-
-### Adaptive Experimentation
-
-Explore mechanisms for recommending new experiments based on previous outcomes while maintaining user control.
-
-### Semantic Knowledge Graphs
-
-Investigate connecting projects, prompts, experiments, documents, and outcomes through structured relationships.
-
-### Reproducible AI Workflows
-
-Develop mechanisms for preserving complete execution metadata and identifying which external dependencies prevent exact reproducibility.
-
-### Multimodal Context Management
-
-Investigate efficient representation and retrieval of text, documents, images, audio, and video in shared experimental contexts.
-
-### Intelligent Evaluation
-
-Explore hybrid evaluation systems combining deterministic checks, benchmark datasets, model-based assessment, and human review.
-
----
-
-# APPENDIX A — CORE DOMAIN OBJECTS
-
-The following describes the main conceptual entities of the proposed system.
-
-| Entity | Description |
-|---|---|
-| User | Individual platform account |
-| Workspace | Organization and permission boundary |
-| Project | Container for related work |
-| Experiment | Structured experimental configuration |
-| ExperimentVersion | Historical configuration |
-| Execution | Individual experiment run |
-| Artifact | Generated or uploaded resource |
-| PromptTemplate | Reusable instruction template |
-| PromptVersion | Versioned prompt configuration |
-| Agent | Configured AI task specialist |
-| AgentTask | Individual delegated task |
-| Workflow | Repeatable sequence of operations |
-| WorkflowExecution | Individual workflow run |
-| Evaluation | Execution assessment |
-| Asset | Uploaded or referenced media |
-| AuditEvent | Traceable application event |
-
-## A.1 Entity Relationship Principles
-
-1. Every project belongs to a workspace.
-2. Every experiment belongs to a project.
-3. Every execution belongs to an experiment.
-4. Every evaluation references an execution.
-5. Every generated artifact retains its origin.
-6. Every prompt revision is independently identifiable.
-7. Workspace membership determines authorized access.
-8. Historical experiment versions should be immutable.
-
----
-
-# APPENDIX B — STANDARD EXECUTION CONTRACT
-
-An execution contract provides consistency across different experiment types.
-
-```typescript
-interface ExecutionRequest {
-  projectId: string;
-
-  experimentId: string;
-
-  versionId: string;
-
-  input: Record<string, unknown>;
-
-  configuration: {
-    provider?: string;
-    model?: string;
-    temperature?: number;
-    maxTokens?: number;
-  };
-
-  idempotencyKey?: string;
-}
-
-interface ExecutionResponse {
-  executionId: string;
-
-  status:
-    | "queued"
-    | "running"
-    | "completed"
-    | "failed"
-    | "cancelled";
-
-  createdAt: string;
-}
-
-interface ExecutionResult {
-  executionId: string;
-
-  status: "completed" | "failed";
-
-  output?: unknown;
-
-  artifacts: string[];
-
-  usage?: {
-    inputTokens?: number;
-    outputTokens?: number;
-  };
-
-  errors?: {
-    code: string;
-    message: string;
-  }[];
-
-  startedAt: string;
-
-  completedAt: string;
-}
-```
-
-The same contract can support different experiment types while preserving consistent monitoring and storage behavior.
-
----
-
-# APPENDIX C — EVENT-DRIVEN ARCHITECTURE
-
-An event-based system can decouple execution services from notification, monitoring, and analytics components.
-
-Potential events:
-
-| Event | Meaning |
-|---|---|
-| `project.created` | Project initialized |
-| `experiment.created` | Experiment registered |
-| `experiment.updated` | Experiment modified |
-| `execution.queued` | Run entered the queue |
-| `execution.started` | Processing started |
-| `execution.completed` | Processing completed |
-| `execution.failed` | Processing failed |
-| `artifact.created` | New artifact stored |
-| `evaluation.completed` | Evaluation saved |
-| `workflow.completed` | Workflow finished |
-
-Event processing should support deduplication and safe retry behavior.
-
-Example:
-
-```json
-{
-  "eventId": "event-example-001",
-  "eventType": "execution.completed",
-  "version": 1,
-  "timestamp": "2026-10-31T12:00:00Z",
-  "data": {
-    "executionId": "execution-example",
-    "experimentId": "experiment-example",
-    "status": "completed"
-  }
-}
-```
-
----
-
-# APPENDIX D — ERROR HANDLING STRATEGY
-
-Errors should be categorized instead of handled as one generic failure.
-
-| Error Category | Response |
-|---|---|
-| Validation | Return actionable input feedback |
-| Authentication | Require valid authentication |
-| Authorization | Reject unauthorized operation |
-| Provider | Apply approved retry policy |
-| Timeout | Mark execution appropriately |
-| Storage | Preserve recoverable execution metadata |
-| Database | Roll back failed transaction where applicable |
-| Queue | Handle delivery and retry safely |
-| Evaluation | Preserve execution and record evaluation failure |
-
-A failed evaluation must not automatically erase a successfully generated experiment output.
-
----
-
-# APPENDIX E — DEVELOPMENT PRINCIPLES
-
-## Code Quality
-
-- Prefer small, testable modules.
-- Maintain clear interface boundaries.
-- Validate external inputs.
-- Avoid unnecessary global state.
-- Use descriptive naming.
-- Keep business logic separate from presentation.
-- Avoid duplicated provider-specific logic.
-- Preserve useful execution metadata.
-
-## AI Engineering
-
-- Version important prompts.
-- Record model configuration.
-- Use structured outputs where appropriate.
-- Validate model responses.
-- Make uncertainty visible.
-- Control resource consumption.
-- Maintain human review options.
-- Evaluate model changes against fixed test cases.
-
-## Database Engineering
-
-- Use stable identifiers.
-- Preserve historical experiment versions.
-- Define foreign-key relationships.
-- Apply workspace-level authorization.
-- Index important retrieval paths.
-- Store large files separately.
-- Implement deletion and retention policies.
-
-## Frontend Engineering
-
-- Build reusable components.
-- Maintain accessible interactions.
-- Separate server and local state.
-- Use predictable loading states.
-- Handle network failures.
-- Preserve appropriate drafts.
-- Make execution states visible.
-
----
-
-# APPENDIX F — GLOSSARY
-
-| Term | Definition |
-|---|---|
-| AI Adapter | Standard interface to an AI provider |
-| AI Agent | Configured system performing a specialized task |
-| Artifact | A stored experimental output |
-| Embedding | Numerical representation of content |
-| Experiment | Structured test or exploration |
-| Execution | A specific run of an experiment |
-| Model Router | Component selecting an AI model |
-| Multimodal | Processing multiple content types |
-| Prompt Template | Reusable model instruction |
-| Prompt Version | Immutable revision of a template |
-| Semantic Search | Similarity-based information retrieval |
-| Workflow | Connected sequence of operations |
-| Workspace | Organizational and access boundary |
-| Evaluation | Assessment of an experiment's output |
-
----
-
-# APPENDIX G — CONTRIBUTING
-
-Contributions should improve maintainability, correctness, usability, security, or extensibility.
-
-## Suggested Contribution Process
-
-1. Review the current project architecture.
-2. Identify an existing issue or improvement.
-3. Create a focused development branch.
-4. Implement the change.
-5. Add or update tests.
-6. Run applicable quality checks.
-7. Document new configuration and functionality.
-8. Submit a pull request.
-9. Address review feedback.
-
-## Contribution Expectations
-
-- Keep pull requests focused.
-- Include relevant tests.
-- Do not commit credentials.
-- Document breaking changes.
-- Preserve existing API contracts where possible.
-- Identify assumptions and limitations.
-- Avoid introducing unnecessary dependencies.
-
----
-
-# APPENDIX H — SECURITY DISCLOSURE
-
-Security issues should be reported responsibly through a private disclosure channel established by the project maintainers.
-
-Do not publish sensitive vulnerabilities, authentication tokens, personal data, or private execution information in public issue reports.
-
-The repository should include a `SECURITY.md` containing the actual security contact and disclosure procedures before public release.
-
----
-
-# APPENDIX I — PROJECT STATUS
-
-The following status categories should be used when describing functionality.
-
-| Status | Meaning |
-|---|---|
-| Implemented | Present in source code and functional |
-| Tested | Covered by relevant automated or manual tests |
-| In Progress | Partially implemented |
-| Planned | Included in the development roadmap |
-| Experimental | Available but not considered stable |
-| Deprecated | Scheduled for removal |
-
-The architecture described in this document is a technical design reference. Features should only be marked implemented after source-code and runtime verification.
-
----
-
-# APPENDIX J — LONG-TERM ARCHITECTURAL OBJECTIVE
-
-The long-term architectural objective is to create a unified experimentation environment in which projects, AI capabilities, agent workflows, datasets, knowledge, and evaluation systems work together.
-
-```mermaid
-flowchart TB
-
-    IDEA["Human Curiosity"]
-
-    STUDIO["Wonder Studio"]
-
-    INTEL["AI Intelligence"]
-
-    AGENTS["Agent Collaboration"]
-
-    EXPERIMENT["Experimentation Engine"]
-
-    KNOWLEDGE["Knowledge Infrastructure"]
-
-    EVALUATION["Evaluation and Learning"]
-
-    LIBRARY["Reusable Innovation Library"]
-
-    IDEA --> STUDIO
-
-    STUDIO --> INTEL
-    STUDIO --> EXPERIMENT
-
-    INTEL --> AGENTS
-    AGENTS --> EXPERIMENT
-
-    EXPERIMENT --> EVALUATION
-
-    EVALUATION --> KNOWLEDGE
-    KNOWLEDGE --> LIBRARY
-
-    LIBRARY --> STUDIO
-```
-
-The platform's most important architectural principle is that experimentation should produce more than an isolated output.
-
-Each experiment should contribute to an evolving body of project knowledge, reusable configurations, validated workflows, and future opportunities for exploration.
-
----
-
-# FINAL THOUGHTS
-
-WooHoo Wonder Labs represents an opportunity to bring together creative exploration, artificial intelligence, technical experimentation, and structured innovation.
-
-Its architecture is intended to be modular enough to accommodate new model providers, processing techniques, workflows, and experimental capabilities without requiring a complete platform redesign.
-
-The long-term direction is centered around five interconnected pillars:
-
-1. **Explore:** Make it easier to investigate ideas and possibilities.
-2. **Create:** Transform concepts into prototypes and experiments.
-3. **Connect:** Bring different AI capabilities and tools into a unified environment.
-4. **Evaluate:** Make experimental results measurable, reviewable, and reproducible.
-5. **Build:** Turn successful explorations into reusable projects and knowledge.
-
-**WooHoo Wonder Labs — Where imagination meets experimentation.**
-
----
+W.O.O.H.O.O. provides a shared technological foundation for exploring multiple branches of physics through artificial intelligence.
 
 <p align="center">
-
-**WOOhOO WONDER LABS**
-
-*Imagine. Experiment. Discover. Build.*
-
+  <strong>W.O.O.H.O.O.</strong>
+  <br/>
+  <strong>WHERE ONLY OUR HEROES ORBIT OUTWARD.</strong>
+  <br/><br/>
+  <em>EXPLORE BEYOND THE KNOWN.</em>
 </p>
 
+---
+
+## LICENSE
+
+Add the project's selected open-source or commercial license here.
+
+For integrations with external scientific software, datasets and pretrained models, follow their individual licensing and attribution requirements.
+
+## ACKNOWLEDGMENTS
+
+W.O.O.H.O.O. builds upon the broader scientific computing and open research ecosystem, including the communities behind:
+
+- NASA scientific data archives.
+- ESA astronomical research.
+- CERN Open Data.
+- Astropy.
+- NumPy and SciPy.
+- PyTorch.
+- JAX.
+- scikit-learn.
+- Three.js.
+- PostgreSQL.
+- Supabase.
+- Qiskit.
+- Cirq.
+- PennyLane.
+- Materials Project.
+- Scientific simulation and visualization communities.
+
+## PROJECT MOTTO
+
+**WHERE ONLY OUR HEROES ORBIT OUTWARD.**
+
+**W.O.O.H.O.O. — EXPLORE BEYOND THE KNOWN.**
