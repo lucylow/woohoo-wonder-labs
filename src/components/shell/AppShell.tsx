@@ -54,7 +54,7 @@ export function AppShell({ children }: { children: ReactNode }) {
 
   const go = (item: NavItem, section?: string) => {
     setPaletteOpen(false);
-    navigate({ to: item.to, hash: section }).then(() => {
+    navigate(section ? { to: item.to, hash: section } : { to: item.to }).then(() => {
       if (section) setTimeout(() => document.getElementById(section)?.scrollIntoView({ behavior: "smooth" }), 60);
       else window.scrollTo({ top: 0 });
     });
