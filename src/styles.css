@@ -223,3 +223,4 @@ section { scroll-margin-top: 72px; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
 }
+[cmdk-input]:focus-visible { outline: none; }
