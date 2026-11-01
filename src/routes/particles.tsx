@@ -18,10 +18,9 @@ export const Route = createFileRoute("/particles")({
 function ParticlesPage() {
   const data = useParticleDataset();
   return (
-    <main className="min-h-screen bg-cosmos text-foreground px-4 py-10 sm:px-6 sm:py-16">
+    <main className="px-4 py-8 sm:px-8 sm:py-10">
       <div className="mx-auto max-w-5xl">
-        <Link to="/" className="text-sm text-primary">← Discovery Engine</Link>
-        <h1 className="mt-3 text-3xl sm:text-5xl font-bold tracking-tight text-glow">Particle Physics Intelligence Center</h1>
+        <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight text-glow">Particle Physics Intelligence Center</h1>
         <p className="mt-3 text-muted-foreground">Reconstruct proton–proton collisions, identify particles, rediscover the Z and Higgs bosons, and hunt for anomalies. All events are simulated and clearly labeled.</p>
         <ParticleDashboard data={data} />
         <EventExplorer />

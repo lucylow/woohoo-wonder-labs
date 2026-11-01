@@ -25,7 +25,7 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
-    <main className="min-h-screen bg-cosmos text-foreground px-4 py-10 sm:px-6 sm:py-16">
+    <main className="px-4 py-8 sm:px-8 sm:py-10">
       <div className="mx-auto max-w-4xl">
         <p className="text-xs font-semibold text-primary">SCIENTIFIC EXPLORATION / W.O.O.H.O.O.</p>
         <h1 className="mt-3 text-4xl sm:text-6xl font-bold tracking-tight text-glow">W.O.O.H.O.O. Discovery Engine</h1>
