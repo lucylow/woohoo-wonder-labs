@@ -12,4 +12,9 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  vite: {
+    // Pre-bundle UI libraries up front so a mid-session re-optimization
+    // cannot load two React copies (blank screen: "reading 'useRef'").
+    optimizeDeps: { include: ["@radix-ui/react-tooltip", "@radix-ui/react-dialog", "cmdk"] },
+  },
 });

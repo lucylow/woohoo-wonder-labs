@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { CosmicWebExplorer, CosmoModelRegistry, ExpansionExplorer, ParameterInference } from "@/components/CosmologyLab";
 
 export const Route = createFileRoute("/cosmology")({
@@ -17,10 +17,9 @@ export const Route = createFileRoute("/cosmology")({
 
 function CosmologyPage() {
   return (
-    <main className="min-h-screen bg-cosmos text-foreground px-4 py-10 sm:px-6 sm:py-16">
+    <main className="px-4 py-8 sm:px-8 sm:py-10">
       <div className="mx-auto max-w-4xl">
-        <Link to="/" className="text-sm text-primary">← Discovery Engine</Link>
-        <h1 className="mt-3 text-3xl sm:text-5xl font-bold tracking-tight text-glow">Cosmology Intelligence Lab</h1>
+        <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight text-glow">Cosmology Intelligence Lab</h1>
         <p className="mt-3 text-muted-foreground">Dark matter, dark energy and the cosmic web, with real calculations and clearly labeled demo data.</p>
         <ExpansionExplorer />
         <ParameterInference />

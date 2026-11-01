@@ -14,7 +14,7 @@ function Stat({ label, value }: { label: string; value: string }) {
 }
 function Section({ id, title, desc, children, tag }: { id: string; title: string; desc: string; children: React.ReactNode; tag?: string }) {
   return (
-    <section id={id} className="mt-8 scroll-mt-4 rounded-2xl border panel p-5 sm:p-8">
+    <section id={id} className="mt-8 scroll-mt-28 rounded-2xl border panel p-5 sm:p-8">
       <div className="flex flex-wrap items-center justify-between gap-2"><h2 className="text-xl font-semibold">{title}</h2><Synthetic label={tag} /></div>
       <p className="text-sm text-muted-foreground">{desc}</p>
       {children}

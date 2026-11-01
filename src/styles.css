@@ -59,42 +59,64 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+  --color-cyan: var(--cyan);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-domain-ai: var(--domain-ai);
+  --color-domain-astro: var(--domain-astro);
+  --color-domain-cosmo: var(--domain-cosmo);
+  --color-domain-particle: var(--domain-particle);
+  --color-domain-materials: var(--domain-materials);
+  --color-domain-plasma: var(--domain-plasma);
+  --color-domain-data: var(--domain-data);
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
 }
 
 :root {
-  --radius: 0.625rem;
-  --background: oklch(0.14 0.03 260);
-  --foreground: oklch(0.96 0.01 250);
-  --card: oklch(0.19 0.035 260);
-  --card-foreground: oklch(0.96 0.01 250);
-  --popover: oklch(0.19 0.035 260);
-  --popover-foreground: oklch(0.96 0.01 250);
-  --primary: oklch(0.8 0.15 200);
-  --primary-foreground: oklch(0.16 0.025 260);
-  --secondary: oklch(0.25 0.025 260);
-  --secondary-foreground: oklch(0.96 0.01 250);
-  --muted: oklch(0.25 0.025 260);
-  --muted-foreground: oklch(0.7 0.03 250);
-  --accent: oklch(0.28 0.03 260);
-  --accent-foreground: oklch(0.96 0.01 250);
-  --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.984 0.003 247.858);
-  --border: oklch(0.3 0.03 260);
-  --input: oklch(0.38 0.03 260);
-  --ring: oklch(0.8 0.15 200);
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
-  --sidebar: oklch(0.984 0.003 247.858);
-  --sidebar-foreground: oklch(0.129 0.042 264.695);
-  --sidebar-primary: oklch(0.208 0.042 265.755);
-  --sidebar-primary-foreground: oklch(0.984 0.003 247.858);
-  --sidebar-accent: oklch(0.968 0.007 247.896);
-  --sidebar-accent-foreground: oklch(0.208 0.042 265.755);
-  --sidebar-border: oklch(0.929 0.013 255.508);
-  --sidebar-ring: oklch(0.704 0.04 256.788);
+  --radius: 0.75rem;
+  --background: oklch(0.145 0.03 268);
+  --foreground: oklch(0.97 0.012 270);
+  --card: oklch(0.185 0.035 262);
+  --card-foreground: oklch(0.97 0.012 270);
+  --popover: oklch(0.2 0.038 262);
+  --popover-foreground: oklch(0.97 0.012 270);
+  --primary: oklch(0.63 0.2 285);
+  --primary-foreground: oklch(0.99 0.005 285);
+  --secondary: oklch(0.225 0.04 260);
+  --secondary-foreground: oklch(0.95 0.012 270);
+  --muted: oklch(0.21 0.035 262);
+  --muted-foreground: oklch(0.72 0.035 260);
+  --accent: oklch(0.255 0.045 260);
+  --accent-foreground: oklch(0.97 0.012 270);
+  --destructive: oklch(0.7 0.17 22);
+  --destructive-foreground: oklch(0.99 0 0);
+  --border: oklch(0.31 0.04 262);
+  --input: oklch(0.34 0.04 262);
+  --ring: oklch(0.7 0.17 285);
+  --chart-1: oklch(0.63 0.2 285);
+  --chart-2: oklch(0.82 0.13 205);
+  --chart-3: oklch(0.78 0.15 162);
+  --chart-4: oklch(0.82 0.12 75);
+  --chart-5: oklch(0.7 0.17 22);
+  --sidebar: oklch(0.125 0.028 268);
+  --sidebar-foreground: oklch(0.86 0.025 262);
+  --sidebar-primary: oklch(0.63 0.2 285);
+  --sidebar-primary-foreground: oklch(0.99 0.005 285);
+  --sidebar-accent: oklch(0.21 0.04 262);
+  --sidebar-accent-foreground: oklch(0.97 0.012 270);
+  --sidebar-border: oklch(0.24 0.035 262);
+  --sidebar-ring: oklch(0.7 0.17 285);
+  --cyan: oklch(0.82 0.13 205);
+  --success: oklch(0.78 0.15 162);
+  --warning: oklch(0.82 0.12 75);
+  --domain-ai: oklch(0.7 0.17 285);
+  --domain-astro: oklch(0.82 0.13 205);
+  --domain-cosmo: oklch(0.68 0.15 268);
+  --domain-particle: oklch(0.86 0.07 225);
+  --domain-materials: oklch(0.78 0.15 162);
+  --domain-plasma: oklch(0.82 0.12 75);
+  --domain-data: oklch(0.72 0.13 245);
 }
 
 .dark {
@@ -144,18 +166,27 @@
 }
 
 @utility bg-cosmos {
-  background: radial-gradient(ellipse at top, color-mix(in oklab, var(--primary) 18%, transparent), transparent 60%), var(--background);
+  background: radial-gradient(ellipse 80% 40% at 50% -10%, color-mix(in oklab, var(--primary) 14%, transparent), transparent 70%), var(--background);
 }
 @utility panel {
-  background: color-mix(in oklab, var(--card) 85%, transparent);
-  border-radius: 8px;
+  background: linear-gradient(180deg, color-mix(in oklab, var(--card) 96%, var(--foreground) 4%), var(--card));
+  border-color: var(--border);
+  box-shadow: 0 1px 0 0 color-mix(in oklab, var(--foreground) 5%, transparent) inset, 0 20px 40px -24px oklch(0 0 0 / 0.6);
 }
 @utility text-glow {
   color: var(--foreground);
 }
 input[type="range"] { accent-color: var(--primary); cursor: pointer; }
 html { scroll-behavior: smooth; }
-body { font-family: "Segoe UI", system-ui, sans-serif; letter-spacing: 0; }
+body { font-family: var(--font-sans); letter-spacing: -0.005em; font-feature-settings: "cv11", "ss01"; -webkit-font-smoothing: antialiased; }
+.font-mono, code, kbd { font-family: var(--font-mono); font-feature-settings: "zero"; }
+@utility orbit-ring {
+  border: 1px solid color-mix(in oklab, var(--primary) 45%, transparent);
+  border-radius: 9999px;
+}
+@utility nav-glow {
+  box-shadow: inset 2px 0 0 0 var(--primary);
+}
 h1, h2, h3 { letter-spacing: 0; text-wrap: balance; }
 button, input, select, a { -webkit-tap-highlight-color: transparent; }
 button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible {
@@ -166,11 +197,11 @@ input:not([type="range"]):not([type="checkbox"]):not([type="radio"]), select {
   min-height: 40px;
 }
 select { color-scheme: dark; }
-section { scroll-margin-top: 24px; }
+section { scroll-margin-top: 72px; }
 .grid > *, .panel { min-width: 0; }
 .panel svg, .panel canvas { max-width: 100%; }
 @media (max-width: 639px) {
-  main { padding-top: 24px; padding-bottom: 32px; }
+  main { padding-top: 20px; padding-bottom: 32px; }
   .panel { padding: 16px; }
   .panel > .flex.items-center.justify-between {
     display: grid;
@@ -192,3 +223,4 @@ section { scroll-margin-top: 24px; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
 }
+[cmdk-input]:focus-visible { outline: none; }
