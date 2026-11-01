@@ -101,7 +101,7 @@ export function AppShell({ children }: { children: ReactNode }) {
                         collapsed && "lg:justify-center lg:px-0",
                       )}
                     >
-                      <Icon className={cn("size-4 shrink-0", active ? item.accent : "text-muted-foreground group-hover:" + item.accent)} />
+                      <Icon className={cn("size-4 shrink-0", active ? item.accent : "text-muted-foreground group-hover:text-foreground")} />
                       <span className={cn("truncate", collapsed && "lg:hidden")}>{item.label}</span>
                     </Link>
                   );
