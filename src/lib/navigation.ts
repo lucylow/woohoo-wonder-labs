@@ -110,6 +110,6 @@ export const NAV: NavItem[] = [
 
 export const NAV_GROUPS = Array.from(new Set(NAV.map((n) => n.group)));
 
-export const findNav = (path: string) => NAV.find((n) => n.to === path) ?? NAV[0];
+export const findNav = (path: string): NavItem => NAV.find((n) => n.to === path) ?? NAV[0]!;
 
 export const EXTRA_ICONS = { BrainCircuit, Sigma };
