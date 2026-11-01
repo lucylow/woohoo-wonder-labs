@@ -7,7 +7,9 @@ import { ModelRegistry } from "@/components/ModelRegistry";
 import { PhysicsSimLab } from "@/components/PhysicsSimLab";
 import { QuantumLab } from "@/components/QuantumLab";
 import { Button } from "@/components/ui/button";
-import { ArrowUpRight, Atom, Database, FlaskConical, Orbit, Zap } from "lucide-react";
+import { ArrowUpRight, Telescope } from "lucide-react";
+import type { ReactNode } from "react";
+import { NAV } from "@/lib/navigation";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -24,36 +26,46 @@ export const Route = createFileRoute("/")({
 });
 
 function Index() {
+  const modules = NAV.filter((n) => n.to !== "/");
+  const labs: [string, ReactNode][] = [
+    ["transit", <TransitLab />], ["router", <TaskRouter />], ["math", <MathLab />], ["pinn", <PinnLab />],
+    ["physics", <PhysicsSimLab />], ["quantum", <QuantumLab />], ["models", <ModelRegistry />],
+  ];
   return (
     <main className="px-4 py-8 sm:px-8 sm:py-10">
-      <div className="mx-auto max-w-4xl">
-        <p className="text-xs font-semibold text-primary">SCIENTIFIC EXPLORATION / W.O.O.H.O.O.</p>
-        <h1 className="mt-3 text-4xl sm:text-6xl font-bold tracking-tight text-glow">W.O.O.H.O.O. Discovery Engine</h1>
-        <p className="mt-3 text-muted-foreground">
-          Explore Beyond the Known. Simulate a stellar light curve and detect planetary transits.
-        </p>
-        <nav aria-label="Research centers" className="mt-7 grid grid-cols-2 gap-2 sm:grid-cols-3">
-          {([
-            { to: "/data", label: "Data Intelligence", icon: Database },
-            { to: "/cosmology", label: "Cosmology", icon: Orbit },
-            { to: "/particles", label: "Particle Physics", icon: Atom },
-            { to: "/materials", label: "Materials", icon: FlaskConical },
-            { to: "/plasma", label: "Plasma & Fusion", icon: Zap },
-          ] as const).map(({ to, label, icon: Icon }) => (
-            <Button key={to} asChild variant="outline" className="h-auto min-h-12 min-w-0 justify-start px-3 py-2 whitespace-normal">
-              <Link to={to}><Icon className="shrink-0 text-primary" /><span className="min-w-0">{label}</span><ArrowUpRight className="ml-auto shrink-0 text-muted-foreground" /></Link>
-            </Button>
+      <div className="mx-auto max-w-6xl">
+        <section className="relative overflow-hidden rounded-2xl border panel p-6 sm:p-10">
+          <div className="pointer-events-none absolute -right-24 -top-24 size-80 orbit-ring opacity-40" />
+          <div className="pointer-events-none absolute -right-8 -top-8 size-48 orbit-ring opacity-25" />
+          <p className="font-mono text-[11px] tracking-[0.2em] text-cyan">WHERE ONLY OUR HEROES ORBIT OUTWARD</p>
+          <h1 className="mt-4 max-w-2xl text-3xl font-semibold tracking-tight sm:text-5xl">Explore beyond the known.</h1>
+          <p className="mt-4 max-w-xl text-muted-foreground">
+            A scientific research workspace where machine learning meets the universe. Every model and simulation runs live in your browser.
+          </p>
+          <div className="mt-6 flex flex-wrap gap-2">
+            <Button asChild><a href="#transit"><Telescope />Start with exoplanet transits</a></Button>
+            <Button asChild variant="outline"><a href="#models">Browse model registry</a></Button>
+          </div>
+        </section>
+
+        <h2 className="mt-10 text-xs font-semibold tracking-[0.14em] text-muted-foreground uppercase">Research centers</h2>
+        <nav aria-label="Research centers" className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {modules.map(({ to, label, description, icon: Icon, accent, accentBg, group }) => (
+            <Link key={to} to={to} className="group relative flex flex-col rounded-xl border panel p-5 transition-colors hover:border-ring/60">
+              <div className="flex items-center justify-between">
+                <span className="flex size-9 items-center justify-center rounded-lg bg-secondary"><Icon className={"size-4 " + accent} /></span>
+                <ArrowUpRight className="size-4 text-muted-foreground transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-foreground" />
+              </div>
+              <div className="mt-4 font-medium">{label}</div>
+              <p className="mt-1 text-sm text-muted-foreground">{description}</p>
+              <div className="mt-4 flex items-center gap-1.5 font-mono text-[10px] tracking-wider text-muted-foreground uppercase">
+                <span className={"size-1.5 rounded-full " + accentBg} />{group}
+              </div>
+            </Link>
           ))}
         </nav>
 
-
-        <TransitLab />
-        <TaskRouter />
-        <MathLab />
-        <PinnLab />
-        <PhysicsSimLab />
-        <QuantumLab />
-        <ModelRegistry />
+        {labs.map(([id, el]) => <div key={id} id={id} className="scroll-mt-28">{el}</div>)}
       </div>
     </main>
   );

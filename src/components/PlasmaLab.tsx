@@ -9,7 +9,7 @@ const Tag = ({ label = "Simulation" }: { label?: string }) => <span className="r
 function Stat({ label, value }: { label: string; value: string }) { return <div className="rounded-xl border p-3 text-sm">{label}<div className="font-mono text-base sm:text-lg">{value}</div></div>; }
 function Section({ id, title, desc, tag, children }: { id: string; title: string; desc: string; tag?: string; children: React.ReactNode }) {
   return (
-    <section id={id} className="mt-8 scroll-mt-4 rounded-2xl border panel p-5 sm:p-8">
+    <section id={id} className="mt-8 scroll-mt-28 rounded-2xl border panel p-5 sm:p-8">
       <div className="flex flex-wrap items-center justify-between gap-2"><h2 className="text-xl font-semibold">{title}</h2><Tag label={tag} /></div>
       <p className="text-sm text-muted-foreground">{desc}</p>{children}
     </section>
