@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { AnomalyQueue, EventExplorer, MassSpectrum, ParticleDashboard, StandardModelExplorer, useParticleDataset } from "@/components/ParticleLab";
 
 export const Route = createFileRoute("/particles")({

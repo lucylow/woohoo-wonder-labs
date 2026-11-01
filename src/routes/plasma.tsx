@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { DisruptionLab, FusionLab, MHDLab, OrbitLab, PICLab, PlasmaDashboard, PlasmaState, WavesLab } from "@/components/PlasmaLab";
 
 export const Route = createFileRoute("/plasma")({

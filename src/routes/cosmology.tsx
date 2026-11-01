@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import { CosmicWebExplorer, CosmoModelRegistry, ExpansionExplorer, ParameterInference } from "@/components/CosmologyLab";
 
 export const Route = createFileRoute("/cosmology")({
