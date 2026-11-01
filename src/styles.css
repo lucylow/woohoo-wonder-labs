@@ -63,25 +63,25 @@
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.129 0.042 264.695);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.129 0.042 264.695);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.129 0.042 264.695);
-  --primary: oklch(0.208 0.042 265.755);
-  --primary-foreground: oklch(0.984 0.003 247.858);
-  --secondary: oklch(0.968 0.007 247.896);
-  --secondary-foreground: oklch(0.208 0.042 265.755);
-  --muted: oklch(0.968 0.007 247.896);
-  --muted-foreground: oklch(0.554 0.046 257.417);
-  --accent: oklch(0.968 0.007 247.896);
-  --accent-foreground: oklch(0.208 0.042 265.755);
+  --background: oklch(0.14 0.03 260);
+  --foreground: oklch(0.96 0.01 250);
+  --card: oklch(0.19 0.035 260);
+  --card-foreground: oklch(0.96 0.01 250);
+  --popover: oklch(0.19 0.035 260);
+  --popover-foreground: oklch(0.96 0.01 250);
+  --primary: oklch(0.8 0.15 200);
+  --primary-foreground: oklch(0.16 0.025 260);
+  --secondary: oklch(0.25 0.025 260);
+  --secondary-foreground: oklch(0.96 0.01 250);
+  --muted: oklch(0.25 0.025 260);
+  --muted-foreground: oklch(0.7 0.03 250);
+  --accent: oklch(0.28 0.03 260);
+  --accent-foreground: oklch(0.96 0.01 250);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.984 0.003 247.858);
-  --border: oklch(0.929 0.013 255.508);
-  --input: oklch(0.929 0.013 255.508);
-  --ring: oklch(0.704 0.04 256.788);
+  --border: oklch(0.3 0.03 260);
+  --input: oklch(0.38 0.03 260);
+  --ring: oklch(0.8 0.15 200);
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
@@ -141,4 +141,54 @@
     background-color: var(--color-background);
     color: var(--color-foreground);
   }
+}
+
+@utility bg-cosmos {
+  background: radial-gradient(ellipse at top, color-mix(in oklab, var(--primary) 18%, transparent), transparent 60%), var(--background);
+}
+@utility panel {
+  background: color-mix(in oklab, var(--card) 85%, transparent);
+  border-radius: 8px;
+}
+@utility text-glow {
+  color: var(--foreground);
+}
+input[type="range"] { accent-color: var(--primary); cursor: pointer; }
+html { scroll-behavior: smooth; }
+body { font-family: "Segoe UI", system-ui, sans-serif; letter-spacing: 0; }
+h1, h2, h3 { letter-spacing: 0; text-wrap: balance; }
+button, input, select, a { -webkit-tap-highlight-color: transparent; }
+button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 3px;
+}
+input:not([type="range"]):not([type="checkbox"]):not([type="radio"]), select {
+  min-height: 40px;
+}
+select { color-scheme: dark; }
+section { scroll-margin-top: 24px; }
+.grid > *, .panel { min-width: 0; }
+.panel svg, .panel canvas { max-width: 100%; }
+@media (max-width: 639px) {
+  main { padding-top: 24px; padding-bottom: 32px; }
+  .panel { padding: 16px; }
+  .panel > .flex.items-center.justify-between {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+  .panel > .flex.items-center.justify-between > h2 {
+    min-width: 0;
+    overflow-wrap: anywhere;
+    font-size: 1.125rem;
+  }
+  .panel > .flex.items-center.justify-between > :last-child { flex-shrink: 0; }
+  .panel .grid-cols-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .panel .grid-cols-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .panel table { display: block; overflow-x: auto; max-width: 100%; }
+  .panel th, .panel td { padding: 6px 8px; white-space: nowrap; }
+  .panel .font-mono { overflow-wrap: anywhere; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
 }
