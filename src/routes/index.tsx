@@ -48,6 +48,16 @@ function Index() {
           </div>
         </section>
 
+        <h2 className="mt-10 text-xs font-semibold tracking-[0.14em] text-muted-foreground uppercase">Quick actions</h2>
+        <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-4">
+          {[["transit", "Find exoplanets"], ["math", "Discover equations"], ["physics", "Run a simulation"], ["quantum", "Build a circuit"]].map(([id, label]) => (
+            <a key={id} href={`#${id}`} className="group flex items-center justify-between rounded-xl border panel px-4 py-3 text-sm font-medium transition-colors hover:border-ring/60">
+              {label}
+              <ArrowUpRight className="size-4 text-muted-foreground transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-foreground" />
+            </a>
+          ))}
+        </div>
+
         <h2 className="mt-10 text-xs font-semibold tracking-[0.14em] text-muted-foreground uppercase">Research centers</h2>
         <nav aria-label="Research centers" className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {modules.map(({ to, label, description, icon: Icon, accent, accentBg, group }) => (
