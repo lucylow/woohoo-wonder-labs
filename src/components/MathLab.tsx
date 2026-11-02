@@ -26,7 +26,7 @@ export function MathLab() {
           if (!Number.isFinite(y)) return null;
           const px = ((x + RANGE) / (2 * RANGE)) * W;
           const py = H - ((y - yMin) / span) * H;
-          return `${px === 0 ? "M" : "L"}${px},${py}`;
+          return `${px === 0 ? "M" : "L"}${coord(px)},${coord(py)}`;
         })
         .filter(Boolean)
         .join("");

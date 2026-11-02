@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
 import { analytic, ensemble, estimateParams, maxError, observe, simulate } from "@/lib/physics-sim";
+import { coord } from "@/lib/svg";
 
 const W = 800, H = 220, T = 20;
 
