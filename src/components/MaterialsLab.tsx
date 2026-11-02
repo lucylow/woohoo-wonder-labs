@@ -5,6 +5,7 @@ import {
   initMD, inverseDesign, lowerHull, mdEnergy, mdStep, predict, rdf, trainKRR, validateStructure,
   type Lattice, type MDState, type Material, type Target,
 } from "@/lib/materials";
+import { coord } from "@/lib/svg";
 
 const Synthetic = ({ label = "Demonstration data" }: { label?: string }) => (
   <span className="rounded-full border px-2 py-0.5 text-[10px] uppercase tracking-wider text-muted-foreground">{label}</span>
@@ -31,7 +32,7 @@ function Line({ pts, w = 600, h = 220, xs, ys, color = "var(--primary)", ticks, 
 }) {
   const [x0, x1] = xs ?? [Math.min(...pts.map((p) => p.x)), Math.max(...pts.map((p) => p.x))];
   const [y0, y1] = ys ?? [Math.min(...pts.map((p) => p.y)), Math.max(...pts.map((p) => p.y))];
-  const X = (v: number) => 30 + ((v - x0) / (x1 - x0 || 1)) * (w - 40), Y = (v: number) => h - 20 - ((v - y0) / (y1 - y0 || 1)) * (h - 30);
+  const X = (v: number) => coord(30 + ((v - x0) / (x1 - x0 || 1)) * (w - 40)), Y = (v: number) => coord(h - 20 - ((v - y0) / (y1 - y0 || 1)) * (h - 30));
   return (
     <svg viewBox={`0 0 ${w} ${h}`} className="w-full rounded-lg bg-background/40">
       {ticks?.map((t, i) => <g key={i}><line x1={X(t.x)} x2={X(t.x)} y1={10} y2={h - 20} stroke="var(--border)" /><text x={X(t.x)} y={h - 6} fontSize={11} textAnchor="middle" fill="var(--muted-foreground)">{t.label}</text></g>)}
@@ -96,9 +97,9 @@ export function StructureExplorer({ log }: { log: (s: string) => void }) {
           onPointerDown={(e) => { drag.current = { x: e.clientX, y: e.clientY }; (e.target as Element).setPointerCapture?.(e.pointerId); }}
           onPointerMove={(e) => { if (!drag.current) return; const dx = e.clientX - drag.current.x, dy = e.clientY - drag.current.y; drag.current = { x: e.clientX, y: e.clientY }; setRot((r) => ({ x: r.x + dy * 0.01, y: r.y + dx * 0.01 })); }}
           onPointerUp={() => (drag.current = null)}>
-          {showBonds && directEdges.map((e, k) => <line key={k} x1={P[e.i][0] * S} y1={P[e.i][1] * S} x2={P[e.j][0] * S} y2={P[e.j][1] * S} stroke="var(--border)" strokeWidth={1.5} />)}
+          {showBonds && directEdges.map((e, k) => <line key={k} x1={coord(P[e.i][0] * S)} y1={coord(P[e.i][1] * S)} x2={coord(P[e.j][0] * S)} y2={coord(P[e.j][1] * S)} stroke="var(--border)" strokeWidth={1.5} />)}
           {order.map((i) => { const el = ELEMENTS[atoms[i].el], depth = 0.6 + 0.4 * ((P[i][2] / c + 1) / 2); return (
-            <circle key={i} cx={P[i][0] * S} cy={P[i][1] * S} r={Math.max(3, el.r * S * 0.45) * depth} fill={el.color} stroke="var(--background)" strokeWidth={0.8} opacity={depth} />
+            <circle key={i} cx={coord(P[i][0] * S)} cy={coord(P[i][1] * S)} r={coord(Math.max(3, el.r * S * 0.45) * depth)} fill={el.color} stroke="var(--background)" strokeWidth={0.8} opacity={depth} />
           ); })}
         </svg>
         <div className="space-y-2 text-sm">
@@ -164,7 +165,7 @@ export function ElectronicStructure() {
       </div>
       <div className="mt-4 grid gap-4 md:grid-cols-[2fr_1fr]">
         <Line pts={bp.pts.map((p) => ({ x: p.s, y: p.e }))} ys={ys} ticks={bp.ticks.map((x) => ({ x: x.s, label: x.label }))}
-          extra={<line x1={30} x2={590} y1={200 - ((ef - ys[0]) / (ys[1] - ys[0])) * 190} y2={200 - ((ef - ys[0]) / (ys[1] - ys[0])) * 190} stroke="var(--destructive)" strokeDasharray="4 3" />} />
+          extra={<line x1={30} x2={590} y1={coord(200 - ((ef - ys[0]) / (ys[1] - ys[0])) * 190)} y2={coord(200 - ((ef - ys[0]) / (ys[1] - ys[0])) * 190)} stroke="var(--destructive)" strokeDasharray="4 3" />} />
         <Line w={240} pts={d.hist.map((h) => ({ x: h.e, y: h.g }))} color="var(--chart-2)" />
       </div>
       <div className="mt-3 grid grid-cols-3 gap-3"><Stat label="Bandwidth" value={`${d.width.toFixed(2)} eV`} /><Stat label="Band filling" value={`${(filled * 100).toFixed(0)}%`} /><Stat label="Character" value={filled > 0.02 && filled < 0.98 ? "Metallic" : "Insulating"} /></div>
@@ -196,7 +197,7 @@ export function MDLab({ log }: { log: (s: string) => void }) {
         <label className="flex items-center gap-1"><input type="checkbox" checked={thermo} onChange={(ev) => setThermo(ev.target.checked)} /> Thermostat (NVT)</label>
       </div>
       <div className="mt-4 grid gap-4 md:grid-cols-2">
-        <svg viewBox="0 0 300 300" className="w-full rounded-lg bg-background/40">{s.x.map((x, i) => <circle key={i} cx={x * sc} cy={s.y[i] * sc} r={0.38 * sc} fill="var(--primary)" opacity={0.85} />)}</svg>
+        <svg viewBox="0 0 300 300" className="w-full rounded-lg bg-background/40">{s.x.map((x, i) => <circle key={i} cx={coord(x * sc)} cy={coord(s.y[i] * sc)} r={coord(0.38 * sc)} fill="var(--primary)" opacity={0.85} />)}</svg>
         <div className="space-y-3">
           <Line h={130} pts={g.map((p) => ({ x: p.r, y: p.g }))} color="var(--chart-2)" />
           {hist.length > 1 && <Line h={110} pts={hist.map((p) => ({ x: p.step, y: p.T }))} color="var(--destructive)" />}
@@ -213,7 +214,7 @@ export function ThermoLab() {
   const hull = lowerHull(pts);
   const [C, setC] = useState({ C11: 168, C12: 121, C44: 75 }), el = cubicElastic(C.C11, C.C12, C.C44);
   const [theta, setTheta] = useState(343);
-  const W = 500, H = 220, X = (x: number) => 30 + x * (W - 50), Y = (e: number) => 20 + (-e / 0.7) * (H - 40);
+  const W = 500, H = 220, X = (x: number) => coord(30 + x * (W - 50)), Y = (e: number) => coord(20 + (-e / 0.7) * (H - 40));
   return (
     <Section id="thermo" title="Thermodynamics, Phase Stability & Elasticity" desc="Binary convex hull with energy above hull, Voigt–Reuss–Hill elastic moduli with Born stability, and Debye heat capacity." tag="Model calculation">
       <div className="mt-4 grid gap-6 md:grid-cols-2">
