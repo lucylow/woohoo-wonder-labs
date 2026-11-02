@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
 import { createRng } from "@/lib/lightcurve";
+import { coord } from "@/lib/svg";
 
 const W = 800;
 const H = 200;
@@ -18,8 +19,8 @@ export function PinnLab() {
     return { truth, pred, mse };
   }, [lambda, epochs]);
 
-  const line = (a: number[]) =>
-    a.map((y, i) => `${i ? "L" : "M"}${(i / (a.length - 1)) * W},${H / 2 - y * H * 0.4}`).join("");
+const line = (a: number[]) =>
+  a.map((y, i) => `${i ? "L" : "M"}${coord((i / (a.length - 1)) * W)},${coord(H / 2 - y * H * 0.4)}`).join("");
 
   return (
     <section className="mt-8 rounded-2xl border panel p-5 sm:p-8">

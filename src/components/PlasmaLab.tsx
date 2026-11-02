@@ -4,6 +4,7 @@ import {
   C, DISPERSION, PRESETS, borisOrbit, brioWu, dtReactivity, evaluateDetector, fitSlope, ignitionTriple, initTwoStream, mhdStep, mhdTotals,
   picStep, plasmaParams, powerBalance, powerSpectrum, prim, synthShots, synthTurbulence, type MHD, type PIC, type PlasmaState,
 } from "@/lib/plasma";
+import { coord } from "@/lib/svg";
 
 const Tag = ({ label = "Simulation" }: { label?: string }) => <span className="rounded-full border px-2 py-0.5 text-[10px] uppercase tracking-wider text-muted-foreground">{label}</span>;
 function Stat({ label, value }: { label: string; value: string }) { return <div className="rounded-xl border p-3 text-sm">{label}<div className="font-mono text-base sm:text-lg">{value}</div></div>; }
@@ -25,7 +26,7 @@ function Plot({ series, w = 600, h = 200, logX, logY, ys, xs, extra }: {
   const all = series.flatMap((s) => s.pts);
   const [x0, x1] = xs ? xs.map(tx) : [Math.min(...all.map((p) => tx(p.x))), Math.max(...all.map((p) => tx(p.x)))];
   const [y0, y1] = ys ? ys.map(ty) : [Math.min(...all.map((p) => ty(p.y))), Math.max(...all.map((p) => ty(p.y)))];
-  const X = (v: number) => 34 + ((tx(v) - x0) / (x1 - x0 || 1)) * (w - 44), Y = (v: number) => h - 16 - ((ty(v) - y0) / (y1 - y0 || 1)) * (h - 26);
+  const X = (v: number) => coord(34 + ((tx(v) - x0) / (x1 - x0 || 1)) * (w - 44)), Y = (v: number) => coord(h - 16 - ((ty(v) - y0) / (y1 - y0 || 1)) * (h - 26));
   return (
     <svg viewBox={`0 0 ${w} ${h}`} className="w-full rounded-lg bg-background/40">
       {series.map((s, i) => <path key={i} d={s.pts.map((p, j) => `${j ? "L" : "M"}${X(p.x)},${Y(p.y)}`).join("")} fill="none" stroke={s.color} strokeWidth={2} strokeDasharray={s.dash ? "5 4" : undefined} />)}
@@ -97,7 +98,7 @@ export function OrbitLab() {
         <label>v∥/v⊥ = {vpar.toFixed(1)} <input type="range" min={0} max={1} step={0.1} value={vpar} onChange={(e) => setVpar(+e.target.value)} /></label>
       </div>
       <div className="mt-4 grid gap-4 md:grid-cols-[1fr_14rem]">
-        <svg viewBox={vb} className="h-72 w-full rounded-lg bg-background/40"><path d={proj.map((p, i) => `${i ? "L" : "M"}${p[0]},${p[1]}`).join("")} fill="none" stroke="var(--primary)" strokeWidth={Math.max(...xs) / 200 + 0.6} /></svg>
+        <svg viewBox={vb} className="h-72 w-full rounded-lg bg-background/40"><path d={proj.map((p, i) => `${i ? "L" : "M"}${coord(p[0])},${coord(p[1])}`).join("")} fill="none" stroke="var(--primary)" strokeWidth={coord(Math.max(...xs) / 200 + 0.6)} /></svg>
         <div className="space-y-2"><Stat label="Larmor radius" value={fmt(r, "m")} /><Stat label="Gyrofrequency" value={fmt(wc / (2 * Math.PI), "Hz")} /><Stat label="E×B drift" value={fmt(E / B, "m/s")} /></div>
       </div>
     </Section>
@@ -148,7 +149,7 @@ export function PICLab({ log }: { log: (s: string) => void }) {
         <label>Beam speed v₀ = {v0.toFixed(1)} <input type="range" min={0.3} max={2} step={0.1} value={v0} onChange={(e) => { setV0(+e.target.value); setRun(false); setS(initTwoStream(3000, 64, +e.target.value)); }} /></label>
       </div>
       <div className="mt-4 grid gap-4 md:grid-cols-2">
-        <svg viewBox={`0 0 ${W} ${H}`} className="w-full rounded-lg bg-background/40">{s.x.map((x, i) => <rect key={i} x={(x / s.L) * W} y={H / 2 - (s.v[i] / vmax) * (H / 2)} width={1.2} height={1.2} fill={i % 2 ? "var(--primary)" : "var(--chart-4)"} />)}</svg>
+        <svg viewBox={`0 0 ${W} ${H}`} className="w-full rounded-lg bg-background/40">{s.x.map((x, i) => <rect key={i} x={coord((x / s.L) * W)} y={coord(H / 2 - (s.v[i] / vmax) * (H / 2))} width={1.2} height={1.2} fill={i % 2 ? "var(--primary)" : "var(--chart-4)"} />)}</svg>
         <div className="space-y-3">
           {s.history.length > 2 ? <Plot h={160} logY series={[{ pts: s.history.map((e, i) => ({ x: i * 0.1, y: e })), color: "var(--destructive)" }]} /> : <div className="flex h-40 items-center justify-center rounded-lg bg-background/40 text-sm text-muted-foreground">Field energy appears here</div>}
           <div className="grid grid-cols-2 gap-2"><Stat label="Time (1/ωₚₑ)" value={s.t.toFixed(1)} /><Stat label="Measured γ" value={growth ? growth.toFixed(2) : "—"} /></div>

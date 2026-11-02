@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import { lightCurveToCsv, simulateLightCurve } from "@/lib/lightcurve";
 import { OrbitView } from "@/components/OrbitView";
+import { coord } from "@/lib/svg";
 
 const W = 800;
 const H = 240;
@@ -28,7 +29,7 @@ export function TransitLab() {
   const min = 1 - result.depth - noise * 3;
   const max = 1 + noise * 3;
   const path = result.points
-    .map((p, i) => `${i ? "L" : "M"}${(p.t / 15) * W},${H - ((p.f - min) / (max - min)) * H}`)
+    .map((p, i) => `${i ? "L" : "M"}${coord((p.t / 15) * W)},${coord(H - ((p.f - min) / (max - min)) * H)}`)
     .join("");
 
   const sliders: SliderSpec[] = [

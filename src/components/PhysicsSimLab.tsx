@@ -1,10 +1,11 @@
 import { useMemo, useState } from "react";
 import { analytic, ensemble, estimateParams, maxError, observe, simulate } from "@/lib/physics-sim";
+import { coord } from "@/lib/svg";
 
 const W = 800, H = 220, T = 20;
 
 function toPath(t: number[], x: number[], yMax: number) {
-  return t.map((ti, i) => `${i ? "L" : "M"}${(ti / T) * W},${H / 2 - (x[i]! / yMax) * (H / 2 - 8)}`).join("");
+  return t.map((ti, i) => `${i ? "L" : "M"}${coord((ti / T) * W)},${coord(H / 2 - (x[i]! / yMax) * (H / 2 - 8))}`).join("");
 }
 
 function Slider({ label, value, min, max, step, onChange }: { label: string; value: number; min: number; max: number; step: number; onChange: (v: number) => void }) {

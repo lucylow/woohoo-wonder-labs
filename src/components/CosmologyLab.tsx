@@ -3,6 +3,7 @@ import {
   MODELS, age, bic, classifyWeb, distanceModulus, initParticles, mcmc, normalize, stats, step, syntheticSurvey,
   type Chain, type ModelId,
 } from "@/lib/cosmology";
+import { coord } from "@/lib/svg";
 
 const W = 800, H = 240;
 
@@ -28,7 +29,7 @@ export function ExpansionExplorer() {
   const ref = { H0, Om: 0.3, Ol: 0.7, w: -1 };
   const zs = Array.from({ length: 80 }, (_, i) => 0.02 + (i / 79) * 1.98);
   const res = zs.map((z) => distanceModulus(z, p) - distanceModulus(z, ref));
-  const path = zs.map((z, i) => `${i ? "L" : "M"}${(z / 2) * W},${H / 2 - res[i]! * 150}`).join("");
+  const path = zs.map((z, i) => `${i ? "L" : "M"}${coord((z / 2) * W)},${coord(H / 2 - res[i]! * 150)}`).join("");
   return (
     <section className="mt-8 rounded-2xl border panel p-5 sm:p-8">
       <h2 className="text-xl font-semibold">Dark Energy Parameter Explorer</h2>
@@ -81,8 +82,8 @@ export function ParameterInference() {
         <span className="ml-1 rounded bg-primary/15 px-1.5 text-primary">Demo data</span> — 60 synthetic supernovae generated from Ωm = 0.3, flat Λ-CDM.
       </p>
       <svg viewBox={`0 0 ${W} ${H}`} className="mt-4 w-full rounded-lg bg-background/40">
-        {data.map((d, i) => <circle key={i} cx={(d.z / 1.6) * W} cy={H - ((d.mu - muMin) / (muMax - muMin)) * H} r={3} fill="var(--foreground)" opacity={0.6} />)}
-        {best && <path fill="none" stroke="var(--primary)" strokeWidth={2} d={Array.from({ length: 60 }, (_, i) => { const z = 0.02 + i * 0.026; return `${i ? "L" : "M"}${(z / 1.6) * W},${H - ((distanceModulus(z, best) - muMin) / (muMax - muMin)) * H}`; }).join("")} />}
+        {data.map((d, i) => <circle key={i} cx={coord((d.z / 1.6) * W)} cy={coord(H - ((d.mu - muMin) / (muMax - muMin)) * H)} r={3} fill="var(--foreground)" opacity={0.6} />)}
+        {best && <path fill="none" stroke="var(--primary)" strokeWidth={2} d={Array.from({ length: 60 }, (_, i) => { const z = 0.02 + i * 0.026; return `${i ? "L" : "M"}${coord((z / 1.6) * W)},${coord(H - ((distanceModulus(z, best) - muMin) / (muMax - muMin)) * H)}`; }).join("")} />}
       </svg>
       <button onClick={run} disabled={busy} className="mt-4 rounded-lg bg-primary px-4 py-2 text-sm text-primary-foreground disabled:opacity-60">
         {busy ? "Sampling…" : "Run inference on all models"}
@@ -136,10 +137,10 @@ export function CosmicWebExplorer() {
       <p className="text-sm text-muted-foreground">400 dark-matter particles in a periodic box collapse under gravity. Density contrast δ on a 10×10 grid classifies regions as voids, filaments or clusters.</p>
       <div className="mt-4 grid gap-4 sm:grid-cols-2">
         <svg viewBox={`0 0 ${S} ${S}`} className="w-full rounded-lg bg-background/40">
-          {Array.from({ length: b.n }, (_, i) => <circle key={i} cx={b.x[i]! * S} cy={b.y[i]! * S} r={1.6} fill="var(--primary)" />)}
+          {Array.from({ length: b.n }, (_, i) => <circle key={i} cx={coord(b.x[i]! * S)} cy={coord(b.y[i]! * S)} r={1.6} fill="var(--primary)" />)}
         </svg>
         <svg viewBox={`0 0 ${S} ${S}`} className="w-full rounded-lg">
-          {web.cells.map((c, i) => <rect key={i} x={(i % web.g) * (S / web.g)} y={Math.floor(i / web.g) * (S / web.g)} width={S / web.g} height={S / web.g} fill={fill[c.cls]} stroke="var(--border)" />)}
+          {web.cells.map((c, i) => <rect key={i} x={coord((i % web.g) * (S / web.g))} y={coord(Math.floor(i / web.g) * (S / web.g))} width={coord(S / web.g)} height={coord(S / web.g)} fill={fill[c.cls]} stroke="var(--border)" />)}
         </svg>
       </div>
       <div className="mt-4 flex flex-wrap gap-2">
