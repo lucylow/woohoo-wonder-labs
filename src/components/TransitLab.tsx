@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import { lightCurveToCsv, simulateLightCurve } from "@/lib/lightcurve";
 import { OrbitView } from "@/components/OrbitView";
+import { coord } from "@/lib/svg";
 
 const W = 800;
 const H = 240;

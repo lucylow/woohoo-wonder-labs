@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
 import { compileExpression, numericalDerivative } from "@/lib/math-engine";
+import { coord } from "@/lib/svg";
 
 const W = 800;
 const H = 200;
