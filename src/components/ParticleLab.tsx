@@ -4,6 +4,7 @@ import {
   generateDataset, generateEvent, hitPhi, identify, radiusFromPt, reconstructTracks, referenceStats, trackingEfficiency, truthClass,
   type CollisionEvent, type EventKind,
 } from "@/lib/particle-physics";
+import { coord } from "@/lib/svg";
 
 const Synthetic = () => <span className="rounded-full border px-2 py-0.5 text-[10px] uppercase tracking-wider text-muted-foreground">Synthetic demo data</span>;
 function Stat({ label, value }: { label: string; value: string }) {
@@ -26,7 +27,7 @@ const COLORS: Record<string, string> = {
 /** Transverse (x–y) event display: tracker helices, calorimeter towers, muon hits. */
 export function EventDisplay({ ev, showReco }: { ev: CollisionEvent; showReco: boolean }) {
   const S = 120, size = 2 * MUON_R * S + 40, c = size / 2;
-  const xy = (r: number, phi: number) => [c + r * S * Math.cos(phi), c - r * S * Math.sin(phi)] as const;
+  const xy = (r: number, phi: number) => [coord(c + r * S * Math.cos(phi)), coord(c - r * S * Math.sin(phi))] as const;
   const tracks = useMemo(() => reconstructTracks(ev.hits), [ev]);
   return (
     <svg viewBox={`0 0 ${size} ${size}`} className="mx-auto w-full max-w-md rounded-lg bg-background/40">
