@@ -23,6 +23,8 @@
   <img src="https://img.shields.io/badge/Supabase-Backend-3ECF8E?logo=supabase" />
 </p>
 
+![](https://github.com/lucylow/woohoo-wonder-labs/blob/main/Screenshot%20(1998).png?raw=true)
+
 ---
 
 # TABLE OF CONTENTS
